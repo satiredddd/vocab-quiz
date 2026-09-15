@@ -1301,11 +1301,812 @@ const QUESTIONS_SET_1 = [
 /* ============================================================
    QUIZ DATA — SET 2 (Questions 81–130)
    ------------------------------------------------------------
-   Empty for now. When you paste your questions, add objects
-   here using the exact same shape as the ones in SET 1 above.
+   Questions 81–130 are added here using the exact same shape
+   as the questions in SET 1 above.
    ============================================================ */
 
-const QUESTIONS_SET_2 = [];
+const QUESTIONS_SET_2 = [
+  {
+    term: "A patient with severe psychotic symptoms receives a drug that diminishes hallucinations and delusions and controls agitation. Which class of drugs is described?",
+    choices: {
+      A: "Neuroleptics",
+      B: "Benzodiazepines",
+      C: "Bromides",
+      D: "Opium",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Neuroleptics are the class described as diminishing hallucinations and delusions and controlling agitation.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A patient with anxiety receives a drug that seems to reduce anxiety. Which class described in the chapter fits?",
+    choices: {
+      A: "Benzodiazepines",
+      B: "Neuroleptics",
+      C: "Bromides",
+      D: "Humors",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Benzodiazepines are the class described in the chapter as reducing anxiety.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A psychiatrist distinguishes psychological disorders by their different ages of onset, time courses, symptom clusters, and probable causes. Which historical figure's contribution is being described?",
+    choices: {
+      A: "Emil Kraepelin",
+      B: "John B. Watson",
+      C: "Franz Anton Mesmer",
+      D: "Abraham Maslow",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Emil Kraepelin is associated with distinguishing psychological disorders by age of onset, time course, symptom clusters, and probable causes.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A theorist believes maladaptive behavior results partly from social and cultural influences and learning in the environment. Which philosopher's ideas does this resemble?",
+    choices: {
+      A: "Plato",
+      B: "Galen",
+      C: "Pavlov",
+      D: "Skinner",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Plato is the philosopher whose ideas in the chapter include social and cultural influences and learning in the environment on maladaptive behavior.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A treatment program places institutionalized patients in an environment where they are treated normally, encouraged to interact socially, and given opportunities to form relationships. Which approach is this?",
+    choices: {
+      A: "Moral therapy",
+      B: "Exorcism",
+      C: "Bloodletting",
+      D: "Psychoanalysis",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Moral therapy places institutionalized patients in a more normal environment, encourages social interaction, and provides opportunities for relationships.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A mental institution removes restraint and seclusion and instead emphasizes positive consequences, social interaction, and relationships. Which treatment is being used?",
+    choices: {
+      A: "Moral therapy",
+      B: "Humoral theory",
+      C: "Systematic desensitization",
+      D: "Dream analysis",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Moral therapy emphasizes humane treatment, positive consequences, social interaction, and relationships rather than restraint and seclusion.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "Philippe Pinel arrives at La Bicêtre and supports the removal of chains and the use of humane and positive psychological interventions. Which approach is represented?",
+    choices: {
+      A: "Moral therapy",
+      B: "Biological tradition",
+      C: "Psychoanalysis",
+      D: "Behaviorism",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Moral therapy is represented by Pinel’s support for removing chains and using humane and positive psychological interventions.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A hospital provides patients with soothing music, massage, and good care rather than treating them like prisoners. Which earlier setting in the chapter demonstrated similar practices?",
+    choices: {
+      A: "Asclepiad Temples",
+      B: "Salpêtrière Hospital",
+      C: "Utica State Hospital",
+      D: "Community hospital",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — The Asclepiad Temples used practices such as soothing music, massage, and good care, similar to the setting described.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "An asylum places residents in a pleasant rural setting where they work in fields, care for livestock, or perform productive work such as weaving. Which treatment philosophy influenced this arrangement?",
+    choices: {
+      A: "Moral therapy",
+      B: "Psychoanalysis",
+      C: "Behaviorism",
+      D: "Supernatural tradition",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Moral therapy influenced arrangements that provided pleasant settings, productive work, and humane treatment.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A treatment program has more than 1,000 patients, making individual attention difficult. Which reason from the chapter helps explain why moral therapy declined?",
+    choices: {
+      A: "Moral therapy worked best when institutions had 200 or fewer patients",
+      B: "Patients preferred supernatural treatment",
+      C: "Freud rejected moral therapy",
+      D: "Pavlov introduced psychoanalysis",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Moral therapy worked best when institutions had 200 or fewer patients, so very large institutions made individual attention difficult.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "Dorothea Dix visits institutions, sees deplorable conditions, and campaigns for reform in the treatment of people with insanity. What movement resulted from her work?",
+    choices: {
+      A: "Mental hygiene movement",
+      B: "Behaviorism",
+      C: "Psychoanalysis",
+      D: "Humanistic psychology",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — The mental hygiene movement resulted from Dorothea Dix’s campaigns to reform deplorable conditions in institutions.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "Dorothea Dix's reforms increase the number of patients receiving care, but hospitals lack enough staff to provide individual attention. What happened to the treatment approach?",
+    choices: {
+      A: "A transition from moral therapy to custodial care",
+      B: "A transition from psychoanalysis to exorcism",
+      C: "A transition from behaviorism to humoral theory",
+      D: "A transition from hypnosis to bloodletting",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — The increase in patients without enough staff contributed to a transition from moral therapy to custodial care.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A therapist tells patients that an undetectable fluid called “animal magnetism” is blocked in their bodies and strongly suggests that they are being cured. Which figure is associated with this approach?",
+    choices: {
+      A: "Franz Anton Mesmer",
+      B: "Josef Breuer",
+      C: "Carl Rogers",
+      D: "Joseph Wolpe",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Franz Anton Mesmer is associated with the theory of “animal magnetism” and the suggestion that it could be blocked in the body.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "Patients sit in a dark room around a large vat of chemicals while a therapist taps parts of their bodies and strongly suggests that they are being cured. Which historical approach is being described?",
+    choices: {
+      A: "Mesmerism",
+      B: "Moral therapy",
+      C: "Classical conditioning",
+      D: "Free association",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Mesmerism is the historical approach involving animal magnetism, suggestion, and the procedures described.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "Benjamin Franklin gives patients either magnetized or nonmagnetized water while neither the patient nor therapist knows which water was given. Both groups improve. What did Franklin conclude?",
+    choices: {
+      A: "Animal magnetism was nothing more than strong suggestion",
+      B: "Animal magnetism was scientifically proven",
+      C: "Humoral theory was correct",
+      D: "Psychoanalysis was effective",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Franklin concluded that animal magnetism was nothing more than strong suggestion after both magnetized and nonmagnetized groups improved.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A therapist places highly suggestible patients into a trance-like state. Which concept is associated with Mesmer's historical influence?",
+    choices: {
+      A: "Hypnosis",
+      B: "Shaping",
+      C: "Reinforcement",
+      D: "Extinction",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Hypnosis is the concept associated with Mesmer’s historical influence and the use of a trance-like state with highly suggestible patients.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A neurologist studies hypnosis and helps legitimize its use with psychological disorders. Which figure is described?",
+    choices: {
+      A: "Jean-Martin Charcot",
+      B: "John P. Grey",
+      C: "Emil Kraepelin",
+      D: "Edward Thorndike",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Jean-Martin Charcot studied hypnosis and helped legitimize its use with psychological disorders.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A young physician travels from Vienna to Paris in 1885 to study hypnosis with Jean-Martin Charcot. Who is this physician?",
+    choices: {
+      A: "Sigmund Freud",
+      B: "B. F. Skinner",
+      C: "Carl Rogers",
+      D: "Abraham Maslow",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Sigmund Freud was the young physician who traveled from Vienna to Paris in 1885 to study hypnosis with Jean-Martin Charcot.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A therapist places patients under hypnosis and asks them to describe their problems, conflicts, and fears in detail. Patients become emotional and feel relief afterward. Which figure's procedure is being described?",
+    choices: {
+      A: "Josef Breuer",
+      B: "B. F. Skinner",
+      C: "Joseph Wolpe",
+      D: "Carl Jung",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Josef Breuer used the procedure of placing patients under hypnosis and having them describe problems, conflicts, and fears.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A patient recalls emotional trauma that had been outside conscious awareness and experiences a release of emotional tension. Which concept applies?",
+    choices: {
+      A: "Catharsis",
+      B: "Prevalence",
+      C: "Extinction",
+      D: "Reinforcement",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Catharsis refers to the release of emotional tension after recalling emotional trauma that had been outside conscious awareness.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "After discussing earlier events, a patient comes to understand how those events are related to current emotions. Which concept is illustrated?",
+    choices: {
+      A: "Insight",
+      B: "Incidence",
+      C: "Shaping",
+      D: "Projection",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Insight is the understanding of how earlier events are related to current emotions.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "Anna O. develops blurred vision, difficulty moving her limbs, difficulty speaking, and unpredictable behavior after her father's serious illness and death. Which historical case is being described?",
+    choices: {
+      A: "Anna O.",
+      B: "Little Albert",
+      C: "Peter",
+      D: "King Charles VI",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Anna O. is the historical case described with blurred vision, difficulty moving her limbs, difficulty speaking, and unpredictable behavior.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A therapist treats one of Anna O.'s symptoms at a time through hypnosis and “talking through,” tracing each symptom to circumstances surrounding her father's death. Which figures conducted this work?",
+    choices: {
+      A: "Breuer and Freud",
+      B: "Pavlov and Skinner",
+      C: "Watson and Jones",
+      D: "Jung and Adler",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Breuer and Freud conducted the work with Anna O., using hypnosis and “talking through” to trace symptoms to circumstances surrounding her father’s death.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "Freud develops a comprehensive theory about the structure of personality and the role of unconscious processes in behavior. Which model does he develop?",
+    choices: {
+      A: "Psychoanalytic model",
+      B: "Behavioral model",
+      C: "Humoral theory",
+      D: "Humanistic theory",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Freud developed the psychoanalytic model concerning personality structure and unconscious processes in behavior.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A psychologist studies how different parts of the mind sometimes clash, how the mind protects itself from these conflicts, and how early development contributes to inner conflicts. Which theory is being studied?",
+    choices: {
+      A: "Psychoanalytic theory",
+      B: "Behavioral model",
+      C: "Humoral theory",
+      D: "Moral therapy",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Psychoanalytic theory studies conflicts among parts of the mind, defenses against those conflicts, and the role of early development.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A person's behavior is driven by strong sexual and aggressive feelings and seeks immediate pleasure while ignoring social rules. Which part of Freud's mind is most directly represented?",
+    choices: {
+      A: "Id",
+      B: "Ego",
+      C: "Superego",
+      D: "Collective unconscious",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — The id is driven by strong sexual and aggressive feelings and seeks immediate pleasure while ignoring social rules.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A person wants immediate pleasure but must consider the realities of the situation before acting. Which part of the mind is responsible for dealing with reality?",
+    choices: {
+      A: "Id",
+      B: "Ego",
+      C: "Superego",
+      D: "Libido",
+    },
+    correct: "B",
+    explanations: {
+      A: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      B: "Correct — The ego deals with reality and considers the realities of a situation before acting.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A person feels an internal voice telling them that a behavior is morally wrong because of values learned from parents and culture. Which structure is represented?",
+    choices: {
+      A: "Id",
+      B: "Ego",
+      C: "Superego",
+      D: "Primary process",
+    },
+    correct: "C",
+    explanations: {
+      A: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "Correct — The superego represents moral values learned from parents and culture and can tell a person that behavior is morally wrong.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A person's immediate desire conflicts with moral principles, while another part of the mind attempts to balance those demands with reality. Which structure acts as the mediator?",
+    choices: {
+      A: "Id",
+      B: "Ego",
+      C: "Superego",
+      D: "Libido",
+    },
+    correct: "B",
+    explanations: {
+      A: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      B: "Correct — The ego acts as the mediator by balancing the demands of immediate desire, moral principles, and reality.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A person experiences conflict entirely within the mind between competing mental structures. Which term does Freud use for this type of conflict?",
+    choices: {
+      A: "Intrapsychic conflicts",
+      B: "Emotion contagion",
+      C: "Classical conditioning",
+      D: "Stimulus generalization",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Freud uses the term intrapsychic conflicts for conflict occurring within the mind between competing mental structures.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A person thinks in an emotional, irrational, illogical way dominated by fantasy, sex, aggression, selfishness, and envy. Which process is illustrated?",
+    choices: {
+      A: "Primary process",
+      B: "Secondary process",
+      C: "Reality principle",
+      D: "Reinforcement",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Primary process thinking is emotional, irrational, and illogical and is dominated by fantasy, sex, aggression, selfishness, and envy.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A person uses logic and reason to make decisions and considers the realities of the world. Which process is being illustrated?",
+    choices: {
+      A: "Primary process",
+      B: "Secondary process",
+      C: "Pleasure principle",
+      D: "Libido",
+    },
+    correct: "B",
+    explanations: {
+      A: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      B: "Correct — Secondary process thinking uses logic and reason and considers the realities of the world.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A person constantly seeks to maximize pleasure and eliminate tension or conflict. Which principle is guiding the behavior?",
+    choices: {
+      A: "Reality principle",
+      B: "Pleasure principle",
+      C: "Law of effect",
+      D: "Cultural context",
+    },
+    correct: "B",
+    explanations: {
+      A: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      B: "Correct — The pleasure principle seeks to maximize pleasure and eliminate tension or conflict.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A person wants to satisfy basic needs but must find a realistic way to do so without offending everyone around them. Which principle is involved?",
+    choices: {
+      A: "Pleasure principle",
+      B: "Reality principle",
+      C: "Primary process",
+      D: "Collective unconscious",
+    },
+    correct: "B",
+    explanations: {
+      A: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      B: "Correct — The reality principle involves finding a realistic way to satisfy basic needs while considering the surrounding social reality.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A student receives a poor grade and becomes angry at the professor, but instead of confronting the professor, goes home and yells at a younger brother. Which defense mechanism is illustrated?",
+    choices: {
+      A: "Displacement",
+      B: "Projection",
+      C: "Repression",
+      D: "Rationalization",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Displacement involves redirecting feelings such as anger from the original target to another person or target.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A person redirects uncomfortable anger into productive work and becomes more efficient because of the redirection. Which defense mechanism is illustrated?",
+    choices: {
+      A: "Sublimation",
+      B: "Denial",
+      C: "Projection",
+      D: "Reaction formation",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Sublimation redirects uncomfortable impulses or feelings into productive or socially acceptable activity.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A person refuses to acknowledge an aspect of reality that is obvious to everyone else. Which defense mechanism is illustrated?",
+    choices: {
+      A: "Denial",
+      B: "Displacement",
+      C: "Sublimation",
+      D: "Projection",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Denial involves refusing to acknowledge an aspect of reality that is obvious to others.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A person has unacceptable feelings but falsely claims that another person has those same feelings. Which defense mechanism is illustrated?",
+    choices: {
+      A: "Projection",
+      B: "Repression",
+      C: "Displacement",
+      D: "Sublimation",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Projection involves attributing one’s own unacceptable feelings to another person.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A person gives a reassuring but incorrect explanation for their behavior while concealing the actual motivation. Which defense mechanism is illustrated?",
+    choices: {
+      A: "Rationalization",
+      B: "Denial",
+      C: "Projection",
+      D: "Repression",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Rationalization involves giving a reassuring but incorrect explanation for behavior while concealing the actual motivation.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A person responds to unacceptable feelings by behaving in the direct opposite way. Which defense mechanism is illustrated?",
+    choices: {
+      A: "Reaction formation",
+      B: "Displacement",
+      C: "Sublimation",
+      D: "Projection",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Reaction formation involves responding to unacceptable feelings by behaving in the direct opposite way.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A disturbing experience is blocked from conscious awareness. Which defense mechanism is illustrated?",
+    choices: {
+      A: "Repression",
+      B: "Projection",
+      C: "Rationalization",
+      D: "Displacement",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Repression involves blocking a disturbing experience from conscious awareness.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A child is primarily focused on feeding, with the lips, tongue, and mouth serving as the principal source of pleasure. Which stage is being described?",
+    choices: {
+      A: "Oral",
+      B: "Anal",
+      C: "Phallic",
+      D: "Genital",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — The oral stage is focused on feeding, with the lips, tongue, and mouth serving as the principal source of pleasure.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "An adult continues excessive thumb sucking, chewing pencils, or biting fingernails, behaviors theoretically associated with an earlier developmental stage. Which concept explains this?",
+    choices: {
+      A: "Fixation",
+      B: "Transference",
+      C: "Catharsis",
+      D: "Projection",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Fixation refers to remaining focused on behaviors associated with an earlier developmental stage, such as excessive thumb sucking or nail biting.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A young boy experiences strong feelings toward his mother and fears that his father may punish him by removing his penis. Which concept is illustrated?",
+    choices: {
+      A: "Castration anxiety",
+      B: "Collective unconscious",
+      C: "Inferiority complex",
+      D: "Unconditional positive regard",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Castration anxiety is the fear that the father may punish the boy by removing his penis, as described in the question.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A boy experiences lustful impulses toward his mother, anger and love toward his father, and an internal conflict involving these feelings. Which concept from Freud's theory fits?",
+    choices: {
+      A: "Oedipus complex",
+      B: "Electra complex",
+      C: "Object relations",
+      D: "Self-psychology",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — The Oedipus complex involves lustful impulses toward the mother and anger and love toward the father, creating an internal conflict.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A theorist focuses on how the ego develops adaptational capacities, reality testing, and defenses, and how problems with these functions can lead to abnormal behavior. Which approach is represented?",
+    choices: {
+      A: "Ego psychology",
+      B: "Self-psychology",
+      C: "Object relations",
+      D: "Collective unconscious",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Ego psychology focuses on the ego’s adaptational capacities, reality testing, and defenses and how problems with these functions can lead to abnormal behavior.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A theorist focuses on the formation of self-concept and the attributes of the self that allow a person to progress toward health. Which approach is represented?",
+    choices: {
+      A: "Ego psychology",
+      B: "Self-psychology",
+      C: "Object relations",
+      D: "Behaviorism",
+    },
+    correct: "B",
+    explanations: {
+      A: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      B: "Correct — Self-psychology focuses on the formation of self-concept and attributes of the self that allow a person to progress toward health.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A therapist examines how a child incorporates images, memories, and sometimes values of important people into their own identity. Which approach is being applied?",
+    choices: {
+      A: "Object relations",
+      B: "Collective unconscious",
+      C: "Ego psychology",
+      D: "Behaviorism",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — Object relations examines how important people’s images, memories, and sometimes values are incorporated into one’s own identity.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A theorist argues that wisdom accumulated by society and culture is stored deep within individual memories and passed from generation to generation. Which concept is being described?",
+    choices: {
+      A: "Collective unconscious",
+      B: "Self-actualizing",
+      C: "Intrapsychic conflicts",
+      D: "Secondary process",
+    },
+    correct: "A",
+    explanations: {
+      A: "Correct — The collective unconscious is described as wisdom accumulated by society and culture stored deep within individual memories and passed from generation to generation.",
+      B: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+  {
+    term: "A therapist asks a patient to say whatever comes to mind without the usual social censoring in order to uncover emotionally charged material that may have been repressed. Which technique is being used?",
+    choices: {
+      A: "Dream analysis",
+      B: "Free association",
+      C: "Systematic desensitization",
+      D: "Shaping",
+    },
+    correct: "B",
+    explanations: {
+      A: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      B: "Correct — Free association asks the patient to say whatever comes to mind without usual social censoring to uncover emotionally charged material that may have been repressed.",
+      C: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+      D: "This is not correct because it does not match the class, concept, or historical contribution described in the question.",
+    },
+  },
+];
 
 const SETS = {
   1: { label: "Questions 1–80", questions: QUESTIONS_SET_1 },
