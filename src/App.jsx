@@ -5333,18 +5333,349 @@ const QUESTIONS_SET_5 = [
   },
 ];
 
+
+/* ============================================================
+   QUIZ DATA — SET 6 (Page 6: Questions 201–220)
+   ------------------------------------------------------------
+   Added from the user's supplied questions. Existing Sets 1–5 unchanged.
+   ============================================================ */
+
+const QUESTIONS_SET_6 = [
+  {
+    "term": "Researchers argue that discrete diagnostic categories have problems because of comorbidity, fuzzy boundaries, and the absence of specific biological markers. What alternative are many researchers increasingly considering?",
+    "choices": {
+      "A": "Greater use of dimensional strategies",
+      "B": "Complete elimination of assessment",
+      "C": "Exclusive reliance on classical categories",
+      "D": "Exclusive use of projective tests",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Greater use of dimensional strategies",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "Researchers describe groups of disorders that share basic biological or psychological qualities or dimensions as a \"spectrum.\" Which example from the chapter illustrates this approach?",
+    "choices": {
+      "A": "Autism spectrum disorder",
+      "B": "MMPI-A",
+      "C": "Psychopathic deviation",
+      "D": "Mental status examination",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Autism spectrum disorder",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A classification system combines Asperger's syndrome with autistic disorder into a broader category based on shared characteristics. Which concept does this illustrate?",
+    "choices": {
+      "A": "Spectrum",
+      "B": "False positive",
+      "C": "Standardization",
+      "D": "Self-monitoring",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Spectrum",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "Researchers studying personality disorders conclude that these disorders may represent maladaptive or extreme versions of common personality traits rather than being completely separate from normal personality. Which approach does this support?",
+    "choices": {
+      "A": "Dimensional approach",
+      "B": "Classical categorical approach",
+      "C": "Projective approach",
+      "D": "Multiaxial approach",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Dimensional approach",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "Researchers studying anxiety and depression argue that the two have more in common than previously thought and may be represented as points on a continuum of negative affect. What classification approach does this support?",
+    "choices": {
+      "A": "Dimensional or spectrum approach",
+      "B": "Classical categorical approach",
+      "C": "Multiaxial approach",
+      "D": "Projective approach",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Dimensional or spectrum approach",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A test produces nearly identical results when different clinicians administer it, but the test does not actually measure the psychological characteristic it claims to measure. Which statement is most accurate?",
+    "choices": {
+      "A": "It is reliable but not valid",
+      "B": "It is valid but not reliable",
+      "C": "It is standardized but not reliable",
+      "D": "It has predictive validity",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "It is reliable but not valid",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "Two clinicians agree completely about a patient's diagnosis, but later evidence shows that the diagnosis does not actually describe the patient's disorder. What quality did the diagnosis demonstrate?",
+    "choices": {
+      "A": "Reliability",
+      "B": "Validity",
+      "C": "Predictive validity",
+      "D": "Content validity",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Reliability",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician wants to know what is unique about Frank so treatment can be individualized, while also wanting to know how Frank resembles people who have had similar problems. Which pair of strategies is needed?",
+    "choices": {
+      "A": "Idiographic and nomothetic",
+      "B": "Classical and projective",
+      "C": "Reliability and validity",
+      "D": "Mood and affect",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Idiographic and nomothetic",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician observes a child throwing objects, records what happened immediately before and afterward, and defines the target behavior in observable and measurable terms. Which combination is being used?",
+    "choices": {
+      "A": "ABC observation and operational definition",
+      "B": "Rorschach and TAT",
+      "C": "IQ and neuroimaging",
+      "D": "DSM-5 and MMPI",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "ABC observation and operational definition",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A patient reports anxiety, but a physical examination reveals hyperthyroidism that began before the anxiety symptoms. Which assessment principle should the clinician apply?",
+    "choices": {
+      "A": "Consider whether the medical condition is causal rather than simply coexisting",
+      "B": "Ignore the medical condition",
+      "C": "Diagnose an anxiety disorder immediately",
+      "D": "Use only a projective test",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Consider whether the medical condition is causal rather than simply coexisting",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A psychologist wants to assess unconscious thoughts using ambiguous stimuli. Another psychologist wants to assess personal traits using a self-report questionnaire. Which pair correctly matches the methods?",
+    "choices": {
+      "A": "Projective test; personality inventory",
+      "B": "Personality inventory; projective test",
+      "C": "Neuroimaging; MMPI",
+      "D": "IQ test; TAT",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Projective test; personality inventory",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A psychologist wants to infer possible brain dysfunction from the effects of brain dysfunction on task performance. Another psychologist wants to directly examine brain structure and function. Which pair is correct?",
+    "choices": {
+      "A": "Neuropsychological testing; neuroimaging",
+      "B": "Neuroimaging; neuropsychological testing",
+      "C": "Personality inventory; EEG",
+      "D": "TAT; MMPI",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Neuropsychological testing; neuroimaging",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A patient has the symptoms associated with a disorder but they are so mild that they do not substantially interfere with functioning. What concept is most important in deciding whether the patient meets criteria?",
+    "choices": {
+      "A": "Impairment threshold",
+      "B": "Face validity",
+      "C": "Inter-rater reliability",
+      "D": "Nomenclature",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Impairment threshold",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician uses DSM-5 but also rates the severity of anxiety separately because the symptom may affect treatment response. Which statement best describes what is happening?",
+    "choices": {
+      "A": "A dimensional assessment is being added to a categorical diagnosis",
+      "B": "The categorical diagnosis has been eliminated",
+      "C": "The clinician is using only the classical categorical approach",
+      "D": "The clinician is performing a projective test",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "A dimensional assessment is being added to a categorical diagnosis",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A diagnostic category is difficult to distinguish from other disorders, has weak reliability, and does not clearly predict treatment response or future course. Which major issue is most directly being demonstrated?",
+    "choices": {
+      "A": "Problems with diagnostic validity and reliability",
+      "B": "Excessive standardization",
+      "C": "Strong content validity",
+      "D": "Strong predictive validity",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Problems with diagnostic validity and reliability",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician says, \"This person is a schizophrenic,\" and begins treating every behavior as evidence of the person's diagnosis. What danger described in the chapter does this demonstrate?",
+    "choices": {
+      "A": "Labeling the person rather than identifying a pattern of behavior",
+      "B": "Test–retest reliability",
+      "C": "Standardization",
+      "D": "Predictive validity",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Labeling the person rather than identifying a pattern of behavior",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A researcher argues that future diagnostic systems should integrate biological, psychological, social, and cultural information instead of assuming that specific DSM categories will each correspond to one specific brain circuit. Which direction from the chapter does this reflect?",
+    "choices": {
+      "A": "Dimensional or spectrum approaches",
+      "B": "Classical categorical approaches",
+      "C": "Exclusive biological classification",
+      "D": "Elimination of assessment",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Dimensional or spectrum approaches",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician wants the classification system to remain scientifically useful but recognizes that diagnostic categories may change as new research reveals better ways to organize psychological disorders. Which idea from the chapter best fits?",
+    "choices": {
+      "A": "Diagnostic categories are not written in stone",
+      "B": "Diagnostic categories are permanent",
+      "C": "Reliability makes categories permanently correct",
+      "D": "Classification eliminates the need for research",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Diagnostic categories are not written in stone",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician wants to understand both a patient's unique circumstances and the general research knowledge available about similar cases. Why are both idiographic and nomothetic strategies considered important?",
+    "choices": {
+      "A": "One provides individualized understanding while the other allows general information to be applied",
+      "B": "Both are methods of neuroimaging",
+      "C": "Both eliminate diagnosis",
+      "D": "One measures IQ and the other measures EEG",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "One provides individualized understanding while the other allows general information to be applied",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A student is asked to summarize what makes the DSM-5 different from a purely classical categorical system. Which answer best matches the chapter?",
+    "choices": {
+      "A": "DSM-5 uses a prototypical approach while incorporating dimensional information",
+      "B": "DSM-5 uses only projective tests",
+      "C": "DSM-5 completely abandoned categories",
+      "D": "DSM-5 relies entirely on biological causes",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "DSM-5 uses a prototypical approach while incorporating dimensional information",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+];
+
 const SETS = {
   1: { label: "Questions 1–80", questions: QUESTIONS_SET_1 },
   2: { label: "Questions 81–130", questions: QUESTIONS_SET_2 },
   3: { label: "Page 3: Questions 1–100", questions: QUESTIONS_SET_3 },
   4: { label: "Page 4: Questions 101–150", questions: QUESTIONS_SET_4 },
   5: { label: "Page 5: Questions 151–200", questions: QUESTIONS_SET_5 },
+  6: { label: "Page 6: Questions 201–220", questions: QUESTIONS_SET_6 },
 };
 
 export default function App() {
   const [activeSet, setActiveSet] = useState(1);
   // Keep separate answer state per set so switching pages doesn't lose progress
-  const [answersBySet, setAnswersBySet] = useState({ 1: {}, 2: {}, 3: {}, 4: {}, 5: {} });
+  const [answersBySet, setAnswersBySet] = useState({ 1: {}, 2: {}, 3: {}, 4: {}, 5: {}, 6: {} });
 
   const QUESTIONS = SETS[activeSet].questions;
   const answers = answersBySet[activeSet];
