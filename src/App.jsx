@@ -1,31 +1,21 @@
 import { useState } from "react";
 
 /* ============================================================
-   QUIZ DATA
+   QUIZ DATA — SET 1 (Questions 1–80)
    ------------------------------------------------------------
-   To add more questions, just copy one of the objects below
-   and paste it into the QUESTIONS array (don't forget a comma
-   between objects). Keep the same shape:
+   To add more questions to THIS set, copy one of the objects
+   below and paste it into the QUESTIONS_SET_1 array. Keep the
+   same shape:
 
    {
      term: "The word/term as it appeared in the book",
-     choices: {
-       A: "meaning of choice A",
-       B: "meaning of choice B",
-       C: "meaning of choice C",
-       D: "meaning of choice D",
-     },
+     choices: { A: "...", B: "...", C: "...", D: "..." },
      correct: "A", // the letter that is correct
-     explanations: {
-       A: "what this choice actually means / why right or wrong",
-       B: "...",
-       C: "...",
-       D: "...",
-     },
+     explanations: { A: "...", B: "...", C: "...", D: "..." },
    }
    ============================================================ */
 
-const QUESTIONS = [
+const QUESTIONS_SET_1 = [
   {
     term: "Judy becomes lightheaded whenever she encounters blood or injury. Eventually, she begins fainting 5 to 10 times a week, including in class, and this disrupts her schooling. Which condition described in the chapter best fits Judy's situation?",
     choices: {
@@ -1308,12 +1298,34 @@ const QUESTIONS = [
   },
 ];
 
+/* ============================================================
+   QUIZ DATA — SET 2 (Questions 81–130)
+   ------------------------------------------------------------
+   Empty for now. When you paste your questions, add objects
+   here using the exact same shape as the ones in SET 1 above.
+   ============================================================ */
+
+const QUESTIONS_SET_2 = [];
+
+const SETS = {
+  1: { label: "Questions 1–80", questions: QUESTIONS_SET_1 },
+  2: { label: "Questions 81–130", questions: QUESTIONS_SET_2 },
+};
+
 export default function App() {
-  const [answers, setAnswers] = useState({});
+  const [activeSet, setActiveSet] = useState(1);
+  // Keep separate answer state per set so switching pages doesn't lose progress
+  const [answersBySet, setAnswersBySet] = useState({ 1: {}, 2: {} });
+
+  const QUESTIONS = SETS[activeSet].questions;
+  const answers = answersBySet[activeSet];
 
   const handleSelect = (qIndex, letter) => {
     if (answers[qIndex]) return; // lock in first answer
-    setAnswers((prev) => ({ ...prev, [qIndex]: letter }));
+    setAnswersBySet((prev) => ({
+      ...prev,
+      [activeSet]: { ...prev[activeSet], [qIndex]: letter },
+    }));
   };
 
   const answeredCount = Object.keys(answers).length;
@@ -1323,12 +1335,180 @@ export default function App() {
 
   return (
     <div className="page">
+      <style>{`
+        .page {
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+          max-width: 720px;
+          margin: 0 auto;
+          padding: 24px 16px 64px;
+          color: #1f2430;
+          background: #fafafa;
+        }
+        .header {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+        .header h1 {
+          font-size: 1.6rem;
+          margin: 0 0 4px;
+        }
+        .subtitle {
+          color: #6b7280;
+          margin: 0 0 16px;
+        }
+        .setSwitcher {
+          display: flex;
+          justify-content: center;
+          gap: 10px;
+          flex-wrap: wrap;
+          margin-bottom: 12px;
+        }
+        .setButton {
+          padding: 10px 18px;
+          border-radius: 999px;
+          border: 2px solid #d1d5db;
+          background: #fff;
+          font-size: 0.95rem;
+          font-weight: 600;
+          cursor: pointer;
+          color: #374151;
+          transition: all 0.15s ease;
+        }
+        .setButton:hover {
+          border-color: #9ca3af;
+        }
+        .setButtonActive {
+          background: #4f46e5;
+          border-color: #4f46e5;
+          color: #fff;
+        }
+        .setButton:disabled {
+          opacity: 0.55;
+          cursor: not-allowed;
+        }
+        .scoreBar {
+          text-align: center;
+          background: #eef2ff;
+          border-radius: 10px;
+          padding: 8px 12px;
+          font-size: 0.95rem;
+          margin-bottom: 8px;
+        }
+        .emptySet {
+          text-align: center;
+          background: #fff;
+          border: 2px dashed #d1d5db;
+          border-radius: 14px;
+          padding: 48px 24px;
+          color: #6b7280;
+        }
+        .emptySet h2 {
+          margin-top: 0;
+          color: #374151;
+        }
+        .card {
+          background: #fff;
+          border: 1px solid #e5e7eb;
+          border-radius: 14px;
+          padding: 18px;
+          margin-bottom: 16px;
+        }
+        .correctCard {
+          border-color: #86efac;
+        }
+        .wrongCard {
+          border-color: #fca5a5;
+        }
+        .qNumber {
+          font-size: 0.8rem;
+          font-weight: 700;
+          color: #6366f1;
+          margin-bottom: 6px;
+        }
+        .term {
+          font-weight: 600;
+          margin: 0 0 14px;
+          line-height: 1.4;
+        }
+        .choices {
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+        }
+        .choice {
+          display: flex;
+          align-items: flex-start;
+          gap: 10px;
+          text-align: left;
+          padding: 10px 12px;
+          border-radius: 10px;
+          border: 1px solid #e5e7eb;
+          background: #f9fafb;
+          cursor: pointer;
+          font-size: 0.95rem;
+        }
+        .choice:hover:not(:disabled) {
+          background: #f1f5f9;
+        }
+        .letter {
+          font-weight: 700;
+          color: #4f46e5;
+          flex-shrink: 0;
+        }
+        .choiceCorrect {
+          background: #dcfce7;
+          border-color: #86efac;
+        }
+        .choiceWrong {
+          background: #fee2e2;
+          border-color: #fca5a5;
+        }
+        .choiceDim {
+          opacity: 0.6;
+        }
+        .feedback {
+          margin-top: 14px;
+          padding-top: 12px;
+          border-top: 1px solid #e5e7eb;
+        }
+        .feedbackCorrect {
+          color: #166534;
+          margin: 0 0 6px;
+        }
+        .feedbackWrong {
+          color: #991b1b;
+          margin: 0 0 6px;
+        }
+        .feedbackRight {
+          color: #166534;
+          margin: 0;
+        }
+        .footer {
+          text-align: center;
+          color: #6b7280;
+          margin-top: 24px;
+        }
+      `}</style>
+
       <header className="header">
         <h1>Quiz for my wifies 📖</h1>
-        <p className="subtitle">
-          Goodluck minamahal kong napakaganda
-        </p>
-        {answeredCount > 0 && (
+        <p className="subtitle">Goodluck minamahal kong napakaganda</p>
+
+        <div className="setSwitcher">
+          {Object.entries(SETS).map(([key, set]) => (
+            <button
+              key={key}
+              className={
+                "setButton" + (activeSet === Number(key) ? " setButtonActive" : "")
+              }
+              onClick={() => setActiveSet(Number(key))}
+            >
+              {set.label}
+            </button>
+          ))}
+        </div>
+
+        {QUESTIONS.length > 0 && answeredCount > 0 && (
           <div className="scoreBar">
             Score: <strong>{correctCount}</strong> / {answeredCount} answered
             {" "}(<span>{QUESTIONS.length} total</span>)
@@ -1337,80 +1517,89 @@ export default function App() {
       </header>
 
       <main>
-        {QUESTIONS.map((q, qIndex) => {
-          const selected = answers[qIndex];
-          const isAnswered = Boolean(selected);
-          const isCorrect = selected === q.correct;
+        {QUESTIONS.length === 0 ? (
+          <div className="emptySet">
+            <h2>Questions 81–130 coming soon</h2>
+            <p>Paste them in and this page will fill up automatically.</p>
+          </div>
+        ) : (
+          QUESTIONS.map((q, qIndex) => {
+            const selected = answers[qIndex];
+            const isAnswered = Boolean(selected);
+            const isCorrect = selected === q.correct;
 
-          return (
-            <section
-              className={
-                "card" +
-                (isAnswered ? (isCorrect ? " correctCard" : " wrongCard") : "")
-              }
-              key={qIndex}
-            >
-              <div className="qNumber">Question {qIndex + 1}</div>
-              <p className="term">{q.term}</p>
+            return (
+              <section
+                className={
+                  "card" +
+                  (isAnswered ? (isCorrect ? " correctCard" : " wrongCard") : "")
+                }
+                key={qIndex}
+              >
+                <div className="qNumber">Question {qIndex + 1}</div>
+                <p className="term">{q.term}</p>
 
-              <div className="choices">
-                {["A", "B", "C", "D"].map((letter) => {
-                  const isThisCorrect = letter === q.correct;
-                  const isThisSelected = letter === selected;
+                <div className="choices">
+                  {["A", "B", "C", "D"].map((letter) => {
+                    const isThisCorrect = letter === q.correct;
+                    const isThisSelected = letter === selected;
 
-                  let choiceClass = "choice";
-                  if (isAnswered) {
-                    if (isThisCorrect) choiceClass += " choiceCorrect";
-                    else if (isThisSelected) choiceClass += " choiceWrong";
-                    else choiceClass += " choiceDim";
-                  }
+                    let choiceClass = "choice";
+                    if (isAnswered) {
+                      if (isThisCorrect) choiceClass += " choiceCorrect";
+                      else if (isThisSelected) choiceClass += " choiceWrong";
+                      else choiceClass += " choiceDim";
+                    }
 
-                  return (
-                    <button
-                      key={letter}
-                      className={choiceClass}
-                      onClick={() => handleSelect(qIndex, letter)}
-                      disabled={isAnswered}
-                    >
-                      <span className="letter">{letter}</span>
-                      <span className="choiceText">{q.choices[letter]}</span>
-                    </button>
-                  );
-                })}
-              </div>
+                    return (
+                      <button
+                        key={letter}
+                        className={choiceClass}
+                        onClick={() => handleSelect(qIndex, letter)}
+                        disabled={isAnswered}
+                      >
+                        <span className="letter">{letter}</span>
+                        <span className="choiceText">{q.choices[letter]}</span>
+                      </button>
+                    );
+                  })}
+                </div>
 
-              {isAnswered && (
-                <div className="feedback">
-                  {isCorrect ? (
-                    <p className="feedbackCorrect">
-                      ✅ Correct! <strong>{selected}</strong> —{" "}
-                      {q.explanations[selected]}
-                    </p>
-                  ) : (
-                    <>
-                      <p className="feedbackWrong">
-                        ❌ You picked <strong>{selected}</strong> —{" "}
+                {isAnswered && (
+                  <div className="feedback">
+                    {isCorrect ? (
+                      <p className="feedbackCorrect">
+                        ✅ Correct! <strong>{selected}</strong> —{" "}
                         {q.explanations[selected]}
                       </p>
-                      <p className="feedbackRight">
-                        ✅ Correct answer: <strong>{q.correct}</strong> —{" "}
-                        {q.explanations[q.correct]}
-                      </p>
-                    </>
-                  )}
-                </div>
-              )}
-            </section>
-          );
-        })}
+                    ) : (
+                      <>
+                        <p className="feedbackWrong">
+                          ❌ You picked <strong>{selected}</strong> —{" "}
+                          {q.explanations[selected]}
+                        </p>
+                        <p className="feedbackRight">
+                          ✅ Correct answer: <strong>{q.correct}</strong> —{" "}
+                          {q.explanations[q.correct]}
+                        </p>
+                      </>
+                    )}
+                  </div>
+                )}
+              </section>
+            );
+          })
+        )}
       </main>
 
       <footer className="footer">
-        <p>
-          {answeredCount === QUESTIONS.length
-            ? `All done! Final score: ${correctCount} / ${QUESTIONS.length} 🎉`
-            : `${QUESTIONS.length - answeredCount} question(s) left.`}
-        </p>
+        {QUESTIONS.length > 0 && (
+          <p>
+            {answeredCount === QUESTIONS.length
+              ? `All done! Final score: ${correctCount} / ${QUESTIONS.length} 🎉`
+              : `${QUESTIONS.length - answeredCount} question(s) left.`}
+          </p>
+        )}
       </footer>
     </div>
   );
