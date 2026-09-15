@@ -4524,21 +4524,831 @@ const QUESTIONS_SET_4 = [
   },
 ];
 
+/* ============================================================
+   QUIZ DATA — SET 5 (Page 5: Questions 151–200)
+   ------------------------------------------------------------
+   Added from the user's supplied questions. Existing Sets 1–4 unchanged.
+   ============================================================ */
+
+const QUESTIONS_SET_5 = [
+  {
+    "term": "A diagnostic category for depression produces predictions about the likely course of the disorder and the likely effects of different treatments. Which type of validity is particularly relevant?",
+    "choices": {
+      "A": "Content validity",
+      "B": "Predictive validity",
+      "C": "Inter-rater reliability",
+      "D": "Face validity",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — Predictive validity.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A new diagnostic category is created, and experts determine that its criteria accurately reflect what they believe the disorder should represent rather than another disorder. Which type of validity is this?",
+    "choices": {
+      "A": "Content validity",
+      "B": "Test–retest reliability",
+      "C": "Predictive validity",
+      "D": "Construct validity",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Content validity.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A psychiatrist classifies psychological disorders from a biological point of view and uses the term \"dementia praecox\" for what is now known as schizophrenia. Which historical figure is associated with this?",
+    "choices": {
+      "A": "Robert Spitzer",
+      "B": "Emil Kraepelin",
+      "C": "Paul Meehl",
+      "D": "Alfred Binet",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — Emil Kraepelin.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A historical classification system uses the term \"dementia praecox\" because the psychiatrist believed the disorder reflected premature deterioration of the brain. What later disorder does this term refer to?",
+    "choices": {
+      "A": "Bipolar disorder",
+      "B": "Schizophrenia",
+      "C": "Depression",
+      "D": "Panic disorder",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — Schizophrenia.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A historical psychiatrist describes bipolar disorder using the term \"manic depressive psychosis.\" Who is associated with this classification?",
+    "choices": {
+      "A": "Kraepelin",
+      "B": "Rorschach",
+      "C": "Terman",
+      "D": "Spitzer",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Kraepelin.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "The World Health Organization adds a section classifying mental disorders to the sixth edition of the International Classification of Diseases. In what year did this occur?",
+    "choices": {
+      "A": "1904",
+      "B": "1948",
+      "C": "1952",
+      "D": "1980",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — 1948.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "The American Psychiatric Association publishes the first Diagnostic and Statistical Manual. Which edition and year are described?",
+    "choices": {
+      "A": "DSM-I, 1952",
+      "B": "DSM-II, 1968",
+      "C": "DSM-III, 1980",
+      "D": "DSM-IV, 1994",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — DSM-I, 1952.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "In the 1960s and 1970s, different countries use different classification systems, and two clinicians can examine the same patient but reach different conclusions. What major problem does this illustrate?",
+    "choices": {
+      "A": "Lack of reliability and precision",
+      "B": "Excessive predictive validity",
+      "C": "Excessive standardization",
+      "D": "Excessive use of dimensional assessment",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Lack of reliability and precision.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A new DSM edition avoids relying on psychoanalytic or biological theories about the causes of disorders and instead emphasizes precise descriptions of disorders as they appear to clinicians. Which DSM edition introduced this approach?",
+    "choices": {
+      "A": "DSM-I",
+      "B": "DSM-II",
+      "C": "DSM-III",
+      "D": "DSM-IV",
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "Correct — DSM-III.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "Instead of placing phobia under the broad category of \"neurosis,\" a classification system gives phobia its own category under anxiety disorders. Which historical change does this illustrate?",
+    "choices": {
+      "A": "DSM-III's descriptive approach",
+      "B": "DSM-IV's multiaxial format",
+      "C": "DSM-5's cultural formulation",
+      "D": "DSM-II's biological approach",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — DSM-III's descriptive approach.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician uses a classification system that rates the disorder itself on Axis I, personality disorders on Axis II, physical disorders on Axis III, psychosocial stress on Axis IV, and adaptive functioning on Axis V. Which system is this?",
+    "choices": {
+      "A": "DSM-II",
+      "B": "DSM-III/DSM-III-R multiaxial system",
+      "C": "DSM-5",
+      "D": "ICD-10",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — DSM-III/DSM-III-R multiaxial system.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician uses a diagnostic system that emphasizes the whole individual rather than focusing only on the disorder. Which feature of DSM-III helped accomplish this?",
+    "choices": {
+      "A": "Multiaxial format",
+      "B": "Projective testing",
+      "C": "IQ testing",
+      "D": "BOLD-fMRI",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Multiaxial format.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A diagnostic system becomes popular partly because it uses precise descriptions and avoids presuming a particular cause for a diagnosis. Which DSM is being described?",
+    "choices": {
+      "A": "DSM-I",
+      "B": "DSM-II",
+      "C": "DSM-III",
+      "D": "DSM-5",
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "Correct — DSM-III.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A DSM task force wants to make the DSM compatible with ICD-10 and decides that changes should be based as much as possible on scientific data rather than expert consensus. Which DSM is being developed?",
+    "choices": {
+      "A": "DSM-II",
+      "B": "DSM-III",
+      "C": "DSM-IV",
+      "D": "DSM-5",
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "Correct — DSM-IV.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A new DSM removes the distinction between organically based and psychologically based disorders because disorders involving brain pathology are also affected by psychological and social influences. Which DSM introduced this major change?",
+    "choices": {
+      "A": "DSM-I",
+      "B": "DSM-II",
+      "C": "DSM-IV",
+      "D": "DSM-5",
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "Correct — DSM-IV.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "In DSM-IV, a clinician needs to record psychosocial and environmental problems that might affect a disorder. Which Axis is used?",
+    "choices": {
+      "A": "Axis I",
+      "B": "Axis II",
+      "C": "Axis IV",
+      "D": "Axis V",
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "Correct — Axis IV.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician is using the DSM-IV and needs to record the patient's current level of adaptive functioning. Which Axis is used?",
+    "choices": {
+      "A": "Axis I",
+      "B": "Axis II",
+      "C": "Axis IV",
+      "D": "Axis V",
+    },
+    "correct": "D",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "Correct — Axis V.",
+    }
+  },
+  {
+    "term": "A student is asked what happened to the DSM multiaxial system in DSM-5. Which answer is correct?",
+    "choices": {
+      "A": "It was expanded from five axes to ten",
+      "B": "It was removed",
+      "C": "It was returned to DSM-I",
+      "D": "It was replaced by the MMPI",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — It was removed.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician using DSM-5 wants to note psychosocial or contextual factors and the extent of disability without using the former Axis IV and Axis V system. What does the chapter say?",
+    "choices": {
+      "A": "These can be separately noted without the old multiaxial system",
+      "B": "They cannot be recorded",
+      "C": "They must be recorded using Axis IV and V",
+      "D": "They are replaced by IQ scores",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — These can be separately noted without the old multiaxial system.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician rates the severity, intensity, frequency, or duration of a disorder using a dimensional measure while still giving a categorical diagnosis. What DSM-5 development does this illustrate?",
+    "choices": {
+      "A": "Expanded dimensional assessment",
+      "B": "Return to the classical categorical approach",
+      "C": "Elimination of diagnosis",
+      "D": "Replacement of classification with projective testing",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Expanded dimensional assessment.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A patient is diagnosed with bipolar disorder, but the clinician also gives a dimensional rating of the patient's degree of anxiety because anxiety may predict a poorer treatment response. What DSM-5 feature is being used?",
+    "choices": {
+      "A": "Cross-cutting dimensional symptom measure",
+      "B": "Axis II",
+      "C": "Classical categorical approach",
+      "D": "Rorschach scoring",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Cross-cutting dimensional symptom measure.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A DSM-5 measure assesses symptoms such as anxiety, depression, and sleep problems across different disorders rather than belonging to one specific disorder. What is this an example of?",
+    "choices": {
+      "A": "Cross-cutting dimensional symptom measures",
+      "B": "Personality inventories",
+      "C": "Projective tests",
+      "D": "Mental status examinations",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Cross-cutting dimensional symptom measures.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A patient has all of the symptoms of obsessive-compulsive disorder but finds them only mildly annoying, and they do not interfere substantially with functioning. According to the chapter, what should happen?",
+    "choices": {
+      "A": "The patient automatically receives the diagnosis",
+      "B": "The patient does not meet the threshold for a psychological disorder",
+      "C": "The patient must receive a psychophysiological assessment",
+      "D": "The patient must receive an MMPI",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — The patient does not meet the threshold for a psychological disorder.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician determines that symptoms must cause clinically significant distress or impairment in social, occupational, or other important areas of functioning. Why is this important?",
+    "choices": {
+      "A": "Impairment is a crucial determination in making a diagnosis",
+      "B": "Impairment is irrelevant to diagnosis",
+      "C": "It establishes concurrent validity",
+      "D": "It determines the patient's IQ",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Impairment is a crucial determination in making a diagnosis.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinic rates impairment from 0 to 8, with 0 meaning no impairment and 8 meaning severely disturbing or disabling. A patient's score is 3, even though all symptoms are present. How would the chapter describe this case?",
+    "choices": {
+      "A": "Above threshold",
+      "B": "Subthreshold",
+      "C": "False positive",
+      "D": "Psychotic",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — Subthreshold.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "Using the same clinic's scale, a patient's disorder receives a severity rating of 5. What does this indicate according to the example?",
+    "choices": {
+      "A": "It is below the threshold",
+      "B": "It meets the stated severity threshold",
+      "C": "It cannot be diagnosed",
+      "D": "It demonstrates a false negative",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — It meets the stated severity threshold.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician considers a patient's cultural background, including values, knowledge, practices, social group membership, and the patient's perspective on the disorder. What DSM-5 feature is being used?",
+    "choices": {
+      "A": "Cultural formulation",
+      "B": "Test–retest reliability",
+      "C": "Neuroimaging",
+      "D": "Self-monitoring",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Cultural formulation.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A recent immigrant describes psychological problems using terms from the person's old country and is still having difficulty mastering English. Why should the clinician consider these factors?",
+    "choices": {
+      "A": "They are part of the cultural formulation described in the DSM-5",
+      "B": "They determine the patient's IQ automatically",
+      "C": "They establish a false positive",
+      "D": "They eliminate the need for diagnosis",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — They are part of the cultural formulation described in the DSM-5.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A patient receives two psychological diagnoses at the same time. What term describes the identification of two or more disorders in one individual at the same time?",
+    "choices": {
+      "A": "Comorbidity",
+      "B": "Standardization",
+      "C": "Nomenclature",
+      "D": "Reactivity",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Comorbidity.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A researcher notices that many diagnostic categories have fuzzy boundaries and that people can meet criteria for more than one disorder. Which problem is being illustrated?",
+    "choices": {
+      "A": "Comorbidity",
+      "B": "Test–retest reliability",
+      "C": "Standardization",
+      "D": "Face validity",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Comorbidity.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician argues that a classification system could achieve high reliability simply by diagnosing depression whenever a patient says, \"I feel depressed,\" but admits that this would not necessarily mean the diagnosis is valid. What distinction is being illustrated?",
+    "choices": {
+      "A": "Reliability versus validity",
+      "B": "Mood versus affect",
+      "C": "Taxonomy versus nosology",
+      "D": "Idiographic versus nomothetic",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Reliability versus validity.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician sees a diagnostic category as though it were a real, fixed \"thing\" rather than a convenient system for organizing observations. What problem is this?",
+    "choices": {
+      "A": "Reactivity",
+      "B": "Reification",
+      "C": "Standardization",
+      "D": "Self-monitoring",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — Reification.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A patient's symptoms fall near the fuzzy border between two diagnostic categories. The clinician recognizes that forcing the patient neatly into one category may be inappropriate. Which concern from the chapter does this reflect?",
+    "choices": {
+      "A": "Categories have fuzzy borders and should not always be treated as fixed",
+      "B": "Every patient must fit one category perfectly",
+      "C": "Reliability is irrelevant",
+      "D": "Diagnosis should be based only on IQ",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Categories have fuzzy borders and should not always be treated as fixed.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician diagnoses a person with a psychological disorder, and the patient begins thinking that the diagnostic label describes his entire identity. What problem is being illustrated?",
+    "choices": {
+      "A": "Labeling",
+      "B": "Predictive validity",
+      "C": "Standardization",
+      "D": "Test–retest reliability",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Labeling.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician says, \"This person has a disorder,\" rather than treating the person as though the disorder defines the entire individual. Why is this distinction important?",
+    "choices": {
+      "A": "A diagnostic label identifies patterns of behavior rather than describing the total person",
+      "B": "Diagnoses should never be used",
+      "C": "Labels are always invalid",
+      "D": "Psychological disorders are not patterns of behavior",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — A diagnostic label identifies patterns of behavior rather than describing the total person.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A person with a psychological disorder begins to experience lower self-esteem because of negative meanings associated with the diagnostic label. What issue does this illustrate?",
+    "choices": {
+      "A": "Stigmatization",
+      "B": "Standardization",
+      "C": "Predictive validity",
+      "D": "Concurrent validity",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Stigmatization.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician gives a diagnosis compassionately and explains that the label identifies a pattern of behavior rather than defining the person's entire identity. According to the chapter, what may this help prevent?",
+    "choices": {
+      "A": "Negative meanings associated with labeling",
+      "B": "Test–retest reliability",
+      "C": "Neuropsychological impairment",
+      "D": "False negatives",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Negative meanings associated with labeling.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "Patients in primary care repeatedly report feeling anxious and depressed, but their symptoms are not frequent or severe enough to meet criteria for existing anxiety or mood disorders. What potential diagnostic category was considered?",
+    "choices": {
+      "A": "Mixed anxiety-depression",
+      "B": "PMDD",
+      "C": "Schizophrenia",
+      "D": "Intellectual disability",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Mixed anxiety-depression.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A diagnostic committee wants to avoid classifying people with only minor symptoms as having a disorder. It therefore establishes a minimum number of criteria that must be met. What is this minimum called?",
+    "choices": {
+      "A": "Threshold",
+      "B": "Prototype",
+      "C": "Norm",
+      "D": "Axis",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Threshold.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "Researchers conduct a study at seven sites around the world to determine whether people presenting with mixed anxiety and depressive symptoms can be distinguished from people with existing anxiety or mood disorders. What type of assessment was central to the study?",
+    "choices": {
+      "A": "Semistructured interviews",
+      "B": "Rorschach testing",
+      "C": "EEG",
+      "D": "MMPI",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Semistructured interviews.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "Researchers find that people with mixed anxiety and depressive symptoms could be distinguished from people with existing anxiety or mood disorders based on their symptoms. Because the category appeared to capture both anxiety and depression, what type of validity did it demonstrate?",
+    "choices": {
+      "A": "Content validity",
+      "B": "Test–retest reliability",
+      "C": "Predictive validity",
+      "D": "Face validity",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Content validity.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "Researchers have evidence supporting some aspects of a new mixed anxiety-depression category but do not yet know enough about its course, treatment response, family aggregation, reliability, or predictive validity. What does the chapter say happened?",
+    "choices": {
+      "A": "It was immediately accepted as an official diagnosis",
+      "B": "It was placed in the DSM-IV appendix for further study",
+      "C": "It was removed from all research",
+      "D": "It became a DSM-III diagnosis",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — It was placed in the DSM-IV appendix for further study.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "Later studies find that mixed anxiety-depression is relatively rare without a current or previous anxiety or mood disorder, the symptoms do not last long, and the condition is difficult to identify reliably. What happened in DSM-5?",
+    "choices": {
+      "A": "It became a major new diagnosis",
+      "B": "Further consideration of it as a separate diagnosis was eliminated",
+      "C": "It became a personality disorder",
+      "D": "It replaced anxiety disorders",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — Further consideration of it as a separate diagnosis was eliminated.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A group of women experience severe and sometimes incapacitating emotional reactions associated with the late luteal phase of their menstrual period. What controversial diagnostic category is being considered?",
+    "choices": {
+      "A": "Mixed anxiety-depression",
+      "B": "Premenstrual dysphoric disorder",
+      "C": "Schizoid personality disorder",
+      "D": "Intellectual disability",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — Premenstrual dysphoric disorder.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "Opponents of a proposed diagnostic category argue that there is little scientific information and worry that a normal endocrinological stage could be stigmatized as a psychiatric disorder. What issue are they raising?",
+    "choices": {
+      "A": "Bias and stigmatization",
+      "B": "Test–retest reliability",
+      "C": "Predictive validity",
+      "D": "False negative",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Bias and stigmatization.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A diagnostic committee wants to distinguish severe premenstrual emotional symptoms from the less severe symptoms of PMS. What name was initially used for the condition?",
+    "choices": {
+      "A": "Late luteal phase dysphoric disorder",
+      "B": "Mixed anxiety-depression",
+      "C": "Premenstrual syndrome",
+      "D": "Mood spectrum disorder",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Late luteal phase dysphoric disorder.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "Research shows that PMS symptoms occur in a much larger percentage of women, while the more severe and incapacitating symptoms associated with LLPDD occur in only a small proportion. Why was this distinction important?",
+    "choices": {
+      "A": "It helped distinguish LLPDD from the less severe PMS symptoms",
+      "B": "It demonstrated that PMS and LLPDD were identical",
+      "C": "It eliminated the need for diagnostic criteria",
+      "D": "It established IQ validity",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — It helped distinguish LLPDD from the less severe PMS symptoms.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "Researchers discover that the name \"late luteal phase dysphoric disorder\" is not entirely accurate because symptoms may not be exclusively related to the endocrine state of the late luteal phase. What change follows?",
+    "choices": {
+      "A": "The condition is renamed PMDD",
+      "B": "The condition becomes schizophrenia",
+      "C": "The condition is renamed mixed anxiety-depression",
+      "D": "The condition is eliminated",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — The condition is renamed PMDD.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician wants to distinguish PMDD from premenstrual exacerbations of another disorder. The clinician carefully examines the nature and timing of symptoms and notes that PMDD symptoms must be absent or only mildly present postmenstrually. What issue is being addressed?",
+    "choices": {
+      "A": "Distinguishing PMDD from other disorders",
+      "B": "Establishing IQ",
+      "C": "Measuring sensorium",
+      "D": "Establishing inter-rater reliability",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Distinguishing PMDD from other disorders.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "Research provides sufficient support for a condition involving disabling premenstrual symptoms, and it is ultimately included as a distinct psychological disorder in DSM-5. Which condition is this?",
+    "choices": {
+      "A": "Mixed anxiety-depression",
+      "B": "PMDD",
+      "C": "Dementia praecox",
+      "D": "Psychopathic deviation",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — PMDD.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+];
+
 const SETS = {
   1: { label: "Questions 1–80", questions: QUESTIONS_SET_1 },
   2: { label: "Questions 81–130", questions: QUESTIONS_SET_2 },
   3: { label: "Page 3: Questions 1–100", questions: QUESTIONS_SET_3 },
   4: { label: "Page 4: Questions 101–150", questions: QUESTIONS_SET_4 },
+  5: { label: "Page 5: Questions 151–200", questions: QUESTIONS_SET_5 },
 };
 
 export default function App() {
   const [activeSet, setActiveSet] = useState(1);
   // Keep separate answer state per set so switching pages doesn't lose progress
-  const [answersBySet, setAnswersBySet] = useState({ 1: {}, 2: {}, 3: {}, 4: {} });
+  const [answersBySet, setAnswersBySet] = useState({ 1: {}, 2: {}, 3: {}, 4: {}, 5: {} });
 
   const QUESTIONS = SETS[activeSet].questions;
   const answers = answersBySet[activeSet];
-  const questionNumberOffset = activeSet === 2 ? 81 : activeSet === 4 ? 101 : 1;
+  const questionNumberOffset = activeSet === 2 ? 81 : activeSet === 4 ? 101 : activeSet === 5 ? 151 : 1;
 
   const handleSelect = (qIndex, letter) => {
     if (answers[qIndex]) return; // lock in first answer
