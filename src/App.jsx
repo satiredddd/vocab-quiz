@@ -204,10 +204,9 @@ export default function App() {
   return (
     <div className="page">
       <header className="header">
-        <h1>Vocab Quiz 📖</h1>
+        <h1>Quiz for my wifies 📖</h1>
         <p className="subtitle">
-          Tap an answer for each question. Right or wrong, you'll see what it
-          actually means.
+          Goodluck minamahal kong napakaganda
         </p>
         {answeredCount > 0 && (
           <div className="scoreBar">
