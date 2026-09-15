@@ -3718,19 +3718,827 @@ const QUESTIONS_SET_3 = [
 },
 ];
 
+/*
+   QUIZ DATA — SET 4 (Page 4: Questions 101–150)
+*/
+const QUESTIONS_SET_4 = [
+  {
+    "term": "A psychologist needs an intelligence test for a child. Which test is described for children?",
+    "choices": {
+      "A": "WAIS-III",
+      "B": "WISC-IV",
+      "C": "WPPSI-III",
+      "D": "MMPI-A",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — WISC-IV.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A psychologist needs an intelligence test for a young child. Which test should be considered?",
+    "choices": {
+      "A": "WAIS-III",
+      "B": "WISC-IV",
+      "C": "WPPSI-III",
+      "D": "MMPI-2",
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "Correct — WPPSI-III.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A patient completes a Wechsler verbal scale involving vocabulary, factual knowledge, short-term memory, and verbal reasoning. What type of abilities are being assessed?",
+    "choices": {
+      "A": "Verbal abilities",
+      "B": "Performance abilities",
+      "C": "Psychophysiological responses",
+      "D": "Sensorium",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Verbal abilities.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "Another patient completes tasks involving psychomotor abilities, nonverbal reasoning, and learning new relationships. Which type of Wechsler scale is being used?",
+    "choices": {
+      "A": "Verbal scale",
+      "B": "Performance scale",
+      "C": "Validity scale",
+      "D": "Clinical scale",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — Performance scale.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A student receives a low IQ score on an English-language test even though English is not her native language. Why does the chapter caution against immediately concluding that she lacks intelligence?",
+    "choices": {
+      "A": "A low IQ score can have multiple explanations, including language effects",
+      "B": "IQ tests never measure anything useful",
+      "C": "IQ scores are always invalid",
+      "D": "Language has no relationship to test performance",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — A low IQ score can have multiple explanations, including language effects.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A psychologist says that IQ should not automatically be treated as identical to intelligence because intelligence may also involve adapting to the environment, generating new ideas, and processing information efficiently. What point is being made?",
+    "choices": {
+      "A": "IQ and intelligence are necessarily identical",
+      "B": "IQ does not necessarily represent the totality of intelligence",
+      "C": "Intelligence cannot be measured",
+      "D": "IQ tests are never reliable",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — IQ does not necessarily represent the totality of intelligence.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician wants to assess receptive and expressive language, attention, concentration, memory, motor skills, perception, learning, and abstraction to make an educated guess about possible brain impairment. What type of testing is appropriate?",
+    "choices": {
+      "A": "Neuropsychological testing",
+      "B": "Projective testing",
+      "C": "Personality inventory",
+      "D": "TAT",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Neuropsychological testing.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician cannot directly see brain dysfunction through a behavioral task but observes its effects on a person's ability to perform certain tasks. What approach does this describe?",
+    "choices": {
+      "A": "Neuropsychological testing",
+      "B": "Mental status examination",
+      "C": "Self-monitoring",
+      "D": "Personality inventory",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Neuropsychological testing.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A child is given cards containing lines and shapes and is asked to copy them. Errors are compared with those of children of the same age. Which test is being used?",
+    "choices": {
+      "A": "Rorschach",
+      "B": "Bender Visual–Motor Gestalt Test",
+      "C": "TAT",
+      "D": "MMPI-A",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — Bender Visual–Motor Gestalt Test.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician uses the Bender Visual–Motor Gestalt Test and finds many errors. What can this test help indicate?",
+    "choices": {
+      "A": "Possible brain dysfunction",
+      "B": "A specific location of brain damage",
+      "C": "A diagnosis of depression",
+      "D": "A person's personality type",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Possible brain dysfunction.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician wants a more elaborate battery capable of assessing several skills in adolescents and adults and potentially making more precise determinations of brain damage. Which battery is described in the chapter?",
+    "choices": {
+      "A": "Halstead-Reitan Neuropsychological Battery",
+      "B": "MMPI-A",
+      "C": "CAT",
+      "D": "Stanford-Binet",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Halstead-Reitan Neuropsychological Battery.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A patient completes the Rhythm Test, which involves comparing rhythmic beats to assess sound recognition, attention, and concentration. Which battery includes this test?",
+    "choices": {
+      "A": "Halstead-Reitan Neuropsychological Battery",
+      "B": "Rorschach Comprehensive System",
+      "C": "Stanford-Binet",
+      "D": "TAT",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Halstead-Reitan Neuropsychological Battery.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A neuropsychological test indicates that a patient has brain damage even though the patient does not actually have the problem. What kind of result is this?",
+    "choices": {
+      "A": "False negative",
+      "B": "False positive",
+      "C": "Predictive validity",
+      "D": "Inter-rater reliability",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — False positive.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A neuropsychological test fails to detect brain damage that is actually present. What kind of result is this?",
+    "choices": {
+      "A": "False positive",
+      "B": "False negative",
+      "C": "Concurrent validity",
+      "D": "Standardization",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — False negative.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician uses neuropsychological testing primarily as a screening device and pairs it with other assessments. Why?",
+    "choices": {
+      "A": "To improve the likelihood that real problems will be found",
+      "B": "Because neuropsychological tests have no reliability",
+      "C": "Because brain dysfunction cannot be assessed",
+      "D": "Because the tests are used only for entertainment",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — To improve the likelihood that real problems will be found.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician wants to directly examine the structure and function of a patient's brain rather than infer brain dysfunction from task performance. Which general method is appropriate?",
+    "choices": {
+      "A": "Neuroimaging",
+      "B": "Self-monitoring",
+      "C": "Personality inventory",
+      "D": "Clinical interview",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Neuroimaging.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A patient undergoes a procedure that uses multiple X-ray exposures from different angles and reconstructs images of brain slices. Which procedure is this?",
+    "choices": {
+      "A": "MRI",
+      "B": "CT/CAT scan",
+      "C": "PET",
+      "D": "SPECT",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — CT/CAT scan.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician suspects a brain tumor and wants to identify a structural abnormality using a relatively noninvasive scan. Which technique described in the chapter is particularly useful for locating brain tumors and injuries?",
+    "choices": {
+      "A": "CT scan",
+      "B": "TAT",
+      "C": "MMPI",
+      "D": "EEG",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — CT scan.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A patient undergoes a scan involving a high-strength magnetic field and radio-frequency signals. Which procedure is being performed?",
+    "choices": {
+      "A": "MRI",
+      "B": "CT",
+      "C": "PET",
+      "D": "EEG",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — MRI.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A patient is unable to tolerate being enclosed in the narrow tube of a brain scanner because of claustrophobia. Which procedure from the chapter is most likely causing the problem?",
+    "choices": {
+      "A": "MRI",
+      "B": "CT",
+      "C": "SPECT",
+      "D": "EEG",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — MRI.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A researcher wants to measure actual brain functioning by using a tracer attached to radioactive isotopes that produces \"hot spots\" when blood, oxygen, or glucose rushes to active brain areas. Which method is this?",
+    "choices": {
+      "A": "MRI",
+      "B": "PET",
+      "C": "CT",
+      "D": "EEG",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — PET.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A medical center wants a brain-functioning procedure similar to PET but less accurate, less expensive, and requiring less sophisticated equipment. Which method fits?",
+    "choices": {
+      "A": "SPECT",
+      "B": "MRI",
+      "C": "CT",
+      "D": "TAT",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — SPECT.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A research center wants to observe the brain's response from one second to the next because it needs very rapid measurements of brain functioning. Which procedure is especially suited to this purpose?",
+    "choices": {
+      "A": "fMRI",
+      "B": "CT",
+      "C": "Rorschach",
+      "D": "Bender test",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — fMRI.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A researcher studying psychological disorders wants to use the most common fMRI technique described in the chapter. Which one is it?",
+    "choices": {
+      "A": "BOLD-fMRI",
+      "B": "CAT-fMRI",
+      "C": "SPECT-fMRI",
+      "D": "EEG-fMRI",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — BOLD-fMRI.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A researcher wants to examine the distribution and density of specific neuroreceptors involving chemicals such as dopamine and serotonin. Which technology described in the chapter is relevant?",
+    "choices": {
+      "A": "Radiolabeled neuroreceptor ligands",
+      "B": "Operational definitions",
+      "C": "Behavior rating scales",
+      "D": "Semistructured interviews",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Radiolabeled neuroreceptor ligands.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A psychologist measures changes in the nervous system that reflect emotional or psychological events. What type of assessment is this?",
+    "choices": {
+      "A": "Psychophysiological assessment",
+      "B": "Projective testing",
+      "C": "Personality inventory",
+      "D": "Classification",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Psychophysiological assessment.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A patient suspected of having periods of memory loss and bizarre, trancelike behavior is given electrodes on the scalp to record electrical brain activity. Which procedure is being used?",
+    "choices": {
+      "A": "EEG",
+      "B": "MRI",
+      "C": "PET",
+      "D": "CT",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — EEG.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "An EEG records a brief brain response after a person hears a psychologically meaningful stimulus. What is this response called?",
+    "choices": {
+      "A": "Alpha wave",
+      "B": "Delta wave",
+      "C": "Event-related potential or evoked potential",
+      "D": "Psychomotor retardation",
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "Correct — Event-related potential or evoked potential.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A relaxed, healthy adult is awake and shows a regular pattern of electrical activity associated with relaxation and calmness. Which brain waves are being observed?",
+    "choices": {
+      "A": "Delta waves",
+      "B": "Alpha waves",
+      "C": "Beta waves",
+      "D": "Evoked waves",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — Alpha waves.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A person is in the deepest, most relaxed stage of sleep, and the EEG shows slow, irregular activity. Which brain waves are expected?",
+    "choices": {
+      "A": "Alpha waves",
+      "B": "Delta waves",
+      "C": "Event-related potentials",
+      "D": "Psychomotor waves",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — Delta waves.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician measures heart rate, respiration, and electrodermal responding while a patient views stimuli associated with a traumatic experience. What kind of assessment is being used?",
+    "choices": {
+      "A": "Psychophysiological assessment",
+      "B": "Personality inventory",
+      "C": "Projective testing",
+      "D": "Classification",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Psychophysiological assessment.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A researcher measures sweat gland activity while a participant experiences emotional arousal. Which physiological measure is being used?",
+    "choices": {
+      "A": "Electrodermal responding",
+      "B": "IQ",
+      "C": "Sensorium",
+      "D": "Mental age",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Electrodermal responding.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A patient with PTSD is exposed to sights and sounds associated with a traumatic event, and strong physiological reactions occur even though the patient is not fully aware of them. What does this demonstrate?",
+    "choices": {
+      "A": "Psychophysiological responses can reflect emotional or psychological events",
+      "B": "Physiological responses cannot be measured",
+      "C": "PTSD can only be diagnosed with an MMPI",
+      "D": "Neuropsychological tests directly measure emotions",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Psychophysiological responses can reflect emotional or psychological events.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician measures penile circumference in response to erotic stimuli as part of an assessment of sexual dysfunction. What type of assessment is being used?",
+    "choices": {
+      "A": "Psychophysiological assessment",
+      "B": "Neuropsychological assessment",
+      "C": "Projective testing",
+      "D": "Mental status examination",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Psychophysiological assessment.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A patient is shown continuously updated blood pressure readings on a meter and attempts to learn how to regulate the response. What treatment approach is being described?",
+    "choices": {
+      "A": "Biofeedback",
+      "B": "Self-monitoring",
+      "C": "Projective testing",
+      "D": "Standardization",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Biofeedback.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician wants to understand what is unique about a patient's personality, cultural background, and circumstances so treatment can be tailored specifically to that person. Which strategy is being used?",
+    "choices": {
+      "A": "Nomothetic strategy",
+      "B": "Idiographic strategy",
+      "C": "Classical categorical approach",
+      "D": "Dimensional approach",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — Idiographic strategy.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician wants to determine which general class of problems a patient's symptoms belong to so information from other cases can be applied. Which strategy is this?",
+    "choices": {
+      "A": "Idiographic strategy",
+      "B": "Nomothetic strategy",
+      "C": "Projective strategy",
+      "D": "Psychophysiological strategy",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — Nomothetic strategy.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician identifies a specific psychological disorder, such as a mood disorder, in a patient. What is the clinician doing?",
+    "choices": {
+      "A": "Making a diagnosis",
+      "B": "Conducting self-monitoring",
+      "C": "Performing neuroimaging",
+      "D": "Establishing a false positive",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Making a diagnosis.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A scientist constructs groups of behaviors based on shared attributes and relations for scientific purposes. Which term best describes this scientific classification?",
+    "choices": {
+      "A": "Taxonomy",
+      "B": "Nomenclature",
+      "C": "Sensorium",
+      "D": "Reactivity",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Taxonomy.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A researcher applies a taxonomic system specifically to psychological or medical phenomena. Which term is most appropriate?",
+    "choices": {
+      "A": "Taxonomy",
+      "B": "Nosology",
+      "C": "Nomenclature",
+      "D": "Diagnosis",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — Nosology.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A classification system contains labels such as anxiety disorders and mood disorders. The researcher wants the term for the names or labels that make up the system. What term applies?",
+    "choices": {
+      "A": "Nomenclature",
+      "B": "Nosology",
+      "C": "Taxonomy",
+      "D": "Idiographic strategy",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Nomenclature.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician in the United States consults the current classification system to identify a specific psychological disorder. Which system does the chapter identify as the most widely used?",
+    "choices": {
+      "A": "ICD-8",
+      "B": "DSM-II",
+      "C": "DSM-5",
+      "D": "MMPI-2",
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "Correct — DSM-5.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician treats psychological disorders as completely distinct categories and assumes each disorder has its own underlying set of causative factors that does not overlap with other disorders. Which approach is this?",
+    "choices": {
+      "A": "Dimensional approach",
+      "B": "Prototypical approach",
+      "C": "Classical categorical approach",
+      "D": "Idiographic strategy",
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "Correct — Classical categorical approach.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician rates a patient's anxiety as 10, depression as 5, and mania as 2 to create a profile of emotional functioning. Which approach is being used?",
+    "choices": {
+      "A": "Classical categorical approach",
+      "B": "Dimensional approach",
+      "C": "Prototypical approach",
+      "D": "Nomothetic strategy",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — Dimensional approach.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A diagnostic system identifies essential characteristics needed for classification but allows variation in other, nonessential characteristics. Which approach is being described?",
+    "choices": {
+      "A": "Classical categorical approach",
+      "B": "Dimensional approach",
+      "C": "Prototypical approach",
+      "D": "Idiographic strategy",
+    },
+    "correct": "C",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "Correct — Prototypical approach.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "Two patients both qualify for a major depressive episode. One has significant weight loss, insomnia, psychomotor agitation, and loss of energy, while another has fatigue, worthlessness, concentration problems, and suicidal thoughts. They look different but meet enough criteria to fit the same category. Which approach does this illustrate?",
+    "choices": {
+      "A": "Classical categorical approach",
+      "B": "Prototypical approach",
+      "C": "Self-monitoring",
+      "D": "Psychophysiological assessment",
+    },
+    "correct": "B",
+    "explanations": {
+      "A": "This choice does not match the answer given for this question.",
+      "B": "Correct — Prototypical approach.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A clinician argues that a patient can qualify for a disorder by meeting enough characteristics of the disorder even though the patient does not display every possible symptom. Which approach is most consistent?",
+    "choices": {
+      "A": "Prototypical approach",
+      "B": "Classical categorical approach",
+      "C": "Idiographic strategy",
+      "D": "Standardization",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Prototypical approach.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "Two clinicians interview the same patient separately on the same day and identify essentially the same set of behaviors and emotions. What does this demonstrate about the diagnostic system?",
+    "choices": {
+      "A": "Reliability",
+      "B": "Labeling",
+      "C": "Face validity",
+      "D": "Reactivity",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Reliability.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "Two clinicians repeatedly disagree about whether a patient meets criteria for a personality disorder. What does this suggest?",
+    "choices": {
+      "A": "The classification criteria may lack reliability",
+      "B": "The criteria have perfect predictive validity",
+      "C": "The diagnosis has perfect content validity",
+      "D": "The patient must have a false positive",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — The classification criteria may lack reliability.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+  {
+    "term": "A diagnostic category contains symptoms that consistently occur together and can be distinguished from the symptoms of other categories. Which type of diagnostic validity does this support?",
+    "choices": {
+      "A": "Construct validity",
+      "B": "Predictive validity",
+      "C": "Concurrent validity",
+      "D": "Face validity",
+    },
+    "correct": "A",
+    "explanations": {
+      "A": "Correct — Construct validity.",
+      "B": "This choice does not match the answer given for this question.",
+      "C": "This choice does not match the answer given for this question.",
+      "D": "This choice does not match the answer given for this question.",
+    }
+  },
+];
+
 const SETS = {
   1: { label: "Questions 1–80", questions: QUESTIONS_SET_1 },
   2: { label: "Questions 81–130", questions: QUESTIONS_SET_2 },
   3: { label: "Page 3: Questions 1–100", questions: QUESTIONS_SET_3 },
+  4: { label: "Page 4: Questions 101–150", questions: QUESTIONS_SET_4 },
 };
 
 export default function App() {
   const [activeSet, setActiveSet] = useState(1);
   // Keep separate answer state per set so switching pages doesn't lose progress
-  const [answersBySet, setAnswersBySet] = useState({ 1: {}, 2: {}, 3: {} });
+  const [answersBySet, setAnswersBySet] = useState({ 1: {}, 2: {}, 3: {}, 4: {} });
 
   const QUESTIONS = SETS[activeSet].questions;
   const answers = answersBySet[activeSet];
+  const questionNumberOffset = activeSet === 2 ? 81 : activeSet === 4 ? 101 : 1;
 
   const handleSelect = (qIndex, letter) => {
     if (answers[qIndex]) return; // lock in first answer
@@ -3948,7 +4756,7 @@ export default function App() {
                 }
                 key={qIndex}
               >
-                <div className="qNumber">Question {qIndex + 1}</div>
+                <div className="qNumber">Question {qIndex + questionNumberOffset}</div>
                 <p className="term">{q.term}</p>
 
                 <div className="choices">
@@ -3987,12 +4795,13 @@ export default function App() {
                     ) : (
                       <>
                         <p className="feedbackWrong">
-                          ❌ You picked <strong>{selected}</strong> —{" "}
-                          {q.explanations[selected]}
+                          ❌ <strong>Your answer: {selected}</strong> — {q.choices[selected]}
                         </p>
                         <p className="feedbackRight">
-                          ✅ Correct answer: <strong>{q.correct}</strong> —{" "}
-                          {q.explanations[q.correct]}
+                          ✅ <strong>Correct answer: {q.correct}</strong> — {q.choices[q.correct]}
+                        </p>
+                        <p className="feedbackExplain">
+                          <strong>Why:</strong> {q.explanations[q.correct]}
                         </p>
                       </>
                     )}
