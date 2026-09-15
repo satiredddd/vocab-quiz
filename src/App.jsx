@@ -2108,15 +2108,1626 @@ const QUESTIONS_SET_2 = [
   },
 ];
 
+/* ============================================================
+   QUIZ DATA — SET 3 (Page 3: Questions 1–100)
+   ------------------------------------------------------------
+   Added from the user's supplied Comprehensive Situational
+   Practice Questions. Existing Sets 1 and 2 are unchanged.
+   ============================================================ */
+
+const QUESTIONS_SET_3 = [
+  {
+  "term": "A 24-year-old man comes to a clinic because he is having problems at work and in his marriage. The clinician first gathers information about his current difficulties, past experiences, biological factors, and social circumstances. What overall process is the clinician carrying out?",
+  "choices": {
+    "A": "Classification",
+    "B": "Clinical assessment",
+    "C": "Diagnosis",
+    "D": "Neuroimaging"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Clinical assessment.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A clinician determines whether a patient's problems meet all the criteria for a specific psychological disorder listed in the DSM-5. What process is being performed?",
+  "choices": {
+    "A": "Behavioral assessment",
+    "B": "Diagnosis",
+    "C": "Self-monitoring",
+    "D": "Standardization"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Diagnosis.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A psychologist begins an evaluation by collecting a large amount of information about a patient's functioning, then gradually narrows the focus after ruling out areas that do not appear relevant. Which description from the chapter best fits this process?",
+  "choices": {
+    "A": "The assessment funnel",
+    "B": "The dimensional approach",
+    "C": "The multiaxial system",
+    "D": "The empirical approach"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — The assessment funnel.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "Four competent physicians examine a patient with the same stomach pain, but each gives a completely different diagnosis. What problem does this illustrate?",
+  "choices": {
+    "A": "Validity",
+    "B": "Reliability",
+    "C": "Standardization",
+    "D": "Predictive validity"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Reliability.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "Two clinicians independently evaluate the same patient and reach the same conclusion. Which type of reliability is demonstrated?",
+  "choices": {
+    "A": "Test–retest reliability",
+    "B": "Predictive validity",
+    "C": "Inter-rater reliability",
+    "D": "Concurrent validity"
+  },
+  "correct": "C",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "Correct — Inter-rater reliability.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A patient receives an IQ score of 110 on Tuesday and takes the same test again on Thursday, receiving a very similar score. Which concept is illustrated?",
+  "choices": {
+    "A": "Inter-rater reliability",
+    "B": "Test–retest reliability",
+    "C": "Content validity",
+    "D": "Construct validity"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Test–retest reliability.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A psychologist develops a new short IQ test and wants to determine whether it measures what it is supposed to measure. Which broad concept should be examined?",
+  "choices": {
+    "A": "Reliability",
+    "B": "Validity",
+    "C": "Standardization",
+    "D": "Reactivity"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Validity.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A psychologist compares scores from a new brief IQ test with scores from a well-established, much longer IQ test. The two tests produce essentially the same results. What type of validity is being examined?",
+  "choices": {
+    "A": "Predictive validity",
+    "B": "Content validity",
+    "C": "Concurrent or descriptive validity",
+    "D": "Construct validity"
+  },
+  "correct": "C",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "Correct — Concurrent or descriptive validity.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A school uses an IQ assessment because it wants to know which students are likely to succeed academically in the future. Which type of validity is particularly relevant?",
+  "choices": {
+    "A": "Predictive validity",
+    "B": "Concurrent validity",
+    "C": "Inter-rater reliability",
+    "D": "Content validity"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Predictive validity.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A psychological test is administered, scored, and evaluated according to the same established procedures every time. What concept is being emphasized?",
+  "choices": {
+    "A": "Reactivity",
+    "B": "Standardization",
+    "C": "Diagnosis",
+    "D": "Classification"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Standardization.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A 19-year-old African American male from a middle-class background receives a psychological test score. The clinician compares his score with people similar to him rather than with older women from a different cultural and socioeconomic background. What principle is being applied?",
+  "choices": {
+    "A": "Standardization",
+    "B": "Face validity",
+    "C": "Reactivity",
+    "D": "Labeling"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Standardization.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A clinician begins a patient's first appointment by asking the patient to describe, in a relatively open-ended way, the major difficulties that brought him or her to the office. Which assessment procedure is this?",
+  "choices": {
+    "A": "Clinical interview",
+    "B": "Neuropsychological testing",
+    "C": "Psychophysiological assessment",
+    "D": "Self-monitoring"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Clinical interview.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "During an interview, a clinician asks when a patient's problem began and what events occurred around that time, including life stress, trauma, or physical illness. What information is the clinician seeking?",
+  "choices": {
+    "A": "Only intellectual functioning",
+    "B": "The history and circumstances surrounding the presenting problem",
+    "C": "Only the patient's current mood",
+    "D": "Only the patient's family diagnosis"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — The history and circumstances surrounding the presenting problem.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "During a clinical interview, a psychologist asks about family makeup, upbringing, sexual development, religious attitudes, cultural concerns, and educational history. Why?",
+  "choices": {
+    "A": "These are all part of routinely gathered clinical interview information",
+    "B": "They are required only for intelligence testing",
+    "C": "They are used exclusively for the MMPI",
+    "D": "They determine whether the patient has a false positive"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — These are all part of routinely gathered clinical interview information.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A clinician observes a patient's clothing, posture, facial expression, general appearance, and unusual leg movements. Which mental status exam category is being assessed?",
+  "choices": {
+    "A": "Sensorium",
+    "B": "Mood and affect",
+    "C": "Appearance and behavior",
+    "D": "Intellectual functioning"
+  },
+  "correct": "C",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "Correct — Appearance and behavior.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A patient moves very slowly and with considerable effort during an interview. The clinician considers whether this behavior could indicate severe depression. Which term from the chapter applies?",
+  "choices": {
+    "A": "Psychomotor retardation",
+    "B": "Loose association",
+    "C": "Reactivity",
+    "D": "Flat affect"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Psychomotor retardation.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A clinician listens to whether a patient's speech is unusually fast or slow and whether the patient's ideas connect logically. Which mental status exam category is being examined?",
+  "choices": {
+    "A": "Thought processes",
+    "B": "Sensorium",
+    "C": "Appearance and behavior",
+    "D": "Intellectual functioning"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Thought processes.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A patient with schizophrenia speaks in a disorganized manner in which ideas have little apparent connection. Which term from the chapter describes this pattern?",
+  "choices": {
+    "A": "Psychomotor retardation",
+    "B": "Loose association or derailment",
+    "C": "Ideas of reference",
+    "D": "Hallucination"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Loose association or derailment.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A patient firmly believes that everyone in the neighborhood is secretly trying to harm him. Which type of delusion is this?",
+  "choices": {
+    "A": "Delusion of grandeur",
+    "B": "Delusion of persecution",
+    "C": "Idea of reference",
+    "D": "Hallucination"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Delusion of persecution.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A patient believes she possesses extraordinary powers and is all-powerful. Which type of delusion is being described?",
+  "choices": {
+    "A": "Delusion of persecution",
+    "B": "Delusion of grandeur",
+    "C": "Idea of reference",
+    "D": "Hallucination"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Delusion of grandeur.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A patient hears two strangers talking across a room and becomes convinced that their conversation is actually about him. Which phenomenon is illustrated?",
+  "choices": {
+    "A": "Hallucination",
+    "B": "Idea of reference",
+    "C": "Delusion of grandeur",
+    "D": "Psychomotor retardation"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Idea of reference.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A patient reports seeing people in the room even though the clinician knows that nobody is there. Which phenomenon is being assessed?",
+  "choices": {
+    "A": "Delusion",
+    "B": "Hallucination",
+    "C": "Idea of reference",
+    "D": "Loose association"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Hallucination.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "During an interview, Brian believes that other men are attracted to him simply because of the way they look at him and believes conversations in another room must be about him. Which mental status finding does this best illustrate?",
+  "choices": {
+    "A": "Ideas of reference",
+    "B": "Psychomotor retardation",
+    "C": "Blunted affect",
+    "D": "Clear sensorium"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Ideas of reference.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "Brian strongly believes he is homosexual despite the clinician finding no evidence of homosexual arousal patterns, fantasies, or behavior. The chapter describes this strongly held belief as what?",
+  "choices": {
+    "A": "Hallucination",
+    "B": "Delusion",
+    "C": "Affect",
+    "D": "Mood"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Delusion.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "Brian also displays clearly negative attitudes toward homosexuality. What term does the chapter use for these attitudes?",
+  "choices": {
+    "A": "Homophobia",
+    "B": "Psychosis",
+    "C": "Derailment",
+    "D": "Grandiosity"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Homophobia.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A clinician observes that a patient has felt sad and hopeless for most of the past month. Which concept refers to the person's predominant feeling state?",
+  "choices": {
+    "A": "Affect",
+    "B": "Mood",
+    "C": "Sensorium",
+    "D": "Intellectual functioning"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Mood.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A patient tells a funny story but shows no emotional response. The clinician is evaluating the feeling state accompanying what the patient is saying. Which concept is being assessed?",
+  "choices": {
+    "A": "Mood",
+    "B": "Affect",
+    "C": "Sensorium",
+    "D": "Thought process"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Affect.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A patient laughs while describing the recent death of his mother. The clinician considers the patient's emotional response strange and inappropriate for what he is discussing. What term best applies?",
+  "choices": {
+    "A": "Flat affect",
+    "B": "Inappropriate affect",
+    "C": "Depressed mood",
+    "D": "Psychomotor retardation"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Inappropriate affect.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A patient discusses both happy and sad events but shows virtually no emotional expression throughout the interview. What finding would the clinician record?",
+  "choices": {
+    "A": "Delusion of grandeur",
+    "B": "Blunted or flat affect",
+    "C": "Psychomotor retardation",
+    "D": "Loose association"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Blunted or flat affect.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A clinician estimates a patient's intellectual functioning by considering vocabulary, memory, and ability to use abstractions and metaphors. Which category is being examined?",
+  "choices": {
+    "A": "Sensorium",
+    "B": "Intellectual functioning",
+    "C": "Mood and affect",
+    "D": "Appearance and behavior"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Intellectual functioning.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A clinician asks a patient to identify the date, time, location, his own identity, and the clinician's identity. Which mental status category is being assessed?",
+  "choices": {
+    "A": "Thought processes",
+    "B": "Sensorium",
+    "C": "Intellectual functioning",
+    "D": "Mood"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Sensorium.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A patient correctly identifies himself, the clinician, the place, and the time. Which description would the clinician use?",
+  "choices": {
+    "A": "Oriented times two",
+    "B": "Oriented times three",
+    "C": "Flat affect",
+    "D": "Psychomotor retardation"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Oriented times three.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A patient has temporary brain dysfunction associated with drugs and cannot correctly identify where he is or what day it is. Which mental status category is most directly affected?",
+  "choices": {
+    "A": "Sensorium",
+    "B": "Mood",
+    "C": "Affect",
+    "D": "Appearance"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Sensorium.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "During Frank's mental status examination, the clinician notes an anxious mood, appropriate affect, reasonable speech flow and content, normal intelligence, and orientation times three. What did the persistent twitch help reveal?",
+  "choices": {
+    "A": "A functional relationship with his troublesome thoughts about seizures",
+    "B": "A delusion of grandeur",
+    "C": "A hallucination",
+    "D": "A problem with his sensorium"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — A functional relationship with his troublesome thoughts about seizures.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "Frank originally reports that his major problem is marital distress, but the clinician discovers that intrusive thoughts about seizures are more central to his difficulties. What does this case demonstrate about the clinical interview?",
+  "choices": {
+    "A": "Patients always know exactly what their primary disorder is",
+    "B": "The problem reported by the patient may not be the major issue after assessment",
+    "C": "Interviews should never begin with the patient's own concerns",
+    "D": "Behavioral assessment is unnecessary"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — The problem reported by the patient may not be the major issue after assessment.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A therapist explains to a patient that information shared during therapy is protected and generally cannot be given to authorities without the patient's expressed consent. What concept is being discussed?",
+  "choices": {
+    "A": "Privileged communication or confidentiality",
+    "B": "Standardization",
+    "C": "Predictive validity",
+    "D": "Classification"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Privileged communication or confidentiality.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A therapist tells a patient that confidentiality may not hold if the clinician believes imminent harm or danger exists to the patient or someone else. Why is the therapist giving this explanation?",
+  "choices": {
+    "A": "It describes the exception to confidentiality discussed in the chapter",
+    "B": "It establishes predictive validity",
+    "C": "It is part of the MMPI",
+    "D": "It is required for standardization"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — It describes the exception to confidentiality discussed in the chapter.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A clinician uses an interview with carefully phrased and tested questions designed to make sure important aspects of a disorder are consistently covered, but allows follow-up questions when needed. Which type of interview is this?",
+  "choices": {
+    "A": "Unstructured interview",
+    "B": "Semistructured interview",
+    "C": "Projective interview",
+    "D": "Informal observation"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Semistructured interview.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A psychologist follows a set of carefully developed questions but departs from those questions when a patient's answer raises an important issue that needs follow-up. Why is this interview called \"semistructured\"?",
+  "choices": {
+    "A": "It contains no systematic format",
+    "B": "It combines carefully established questions with opportunities for follow-up",
+    "C": "It is administered entirely by a computer",
+    "D": "It uses only projective stimuli"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — It combines carefully established questions with opportunities for follow-up.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A clinician complains that a semistructured interview can make the conversation feel less spontaneous and may prevent patients from volunteering information outside the questions. What disadvantage is being described?",
+  "choices": {
+    "A": "It has no reliability",
+    "B": "It can inhibit spontaneous information",
+    "C": "It cannot be standardized",
+    "D": "It cannot be used for specific disorders"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — It can inhibit spontaneous information.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A clinician suspects obsessive-compulsive disorder and uses the Anxiety Disorders Interview Schedule for DSM-5 to ask about recurring thoughts, impulses, compulsions, persistence, distress, and resistance. What assessment method is being used?",
+  "choices": {
+    "A": "ADIS-5",
+    "B": "MMPI-A",
+    "C": "TAT",
+    "D": "Bender Visual–Motor Gestalt Test"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — ADIS-5.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "During an OCD interview, a patient rates how often an obsession occurs and how distressing it is, as well as how often he attempts to get rid of it. Which two dimensions are being assessed for the obsession?",
+  "choices": {
+    "A": "Mood and affect",
+    "B": "Persistence–distress and resistance",
+    "C": "Frequency and sensorium",
+    "D": "Reliability and validity"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Persistence–distress and resistance.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "During the same OCD assessment, the clinician asks how often the patient is driven to perform a particular behavior. What is being rated?",
+  "choices": {
+    "A": "Compulsion frequency",
+    "B": "Persistence–distress",
+    "C": "Resistance",
+    "D": "Sensorium"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Compulsion frequency.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A patient reports anxiety-like symptoms. A physical examination reveals hyperthyroidism. According to the chapter, why is this important?",
+  "choices": {
+    "A": "Hyperthyroidism can produce symptoms that mimic certain anxiety disorders",
+    "B": "Hyperthyroidism proves the patient has an anxiety disorder",
+    "C": "Physical conditions are irrelevant to psychological assessment",
+    "D": "Hyperthyroidism establishes a false negative"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Hyperthyroidism can produce symptoms that mimic certain anxiety disorders.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A patient presents with symptoms consistent with depression, and the clinician discovers hypothyroidism. Why should the clinician consider this finding?",
+  "choices": {
+    "A": "Hypothyroidism might produce symptoms consistent with depression",
+    "B": "Hypothyroidism automatically confirms major depression",
+    "C": "It establishes inter-rater reliability",
+    "D": "It rules out all psychological disorders"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Hypothyroidism might produce symptoms consistent with depression.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A patient experiencing panic attacks does not tell the clinician about cocaine use. The clinician later learns that the panic attacks began during cocaine withdrawal. What issue does this example illustrate?",
+  "choices": {
+    "A": "Substance use can contribute to psychological symptoms and should be assessed",
+    "B": "Psychological symptoms are always caused by psychological factors",
+    "C": "Neuroimaging should always come first",
+    "D": "Personality inventories are unnecessary"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Substance use can contribute to psychological symptoms and should be assessed.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A patient has experienced severe depression for five years, but developed hypothyroidism only one year ago. The clinician does not conclude that the hypothyroidism caused the depression. Why?",
+  "choices": {
+    "A": "The depression began before the medical condition",
+    "B": "Medical conditions cannot affect mood",
+    "C": "Diagnosis does not consider timing",
+    "D": "Hypothyroidism is unrelated to depression"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — The depression began before the medical condition.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "Another patient develops depression at the same time he begins taking sedative drugs, and the depression improves considerably when the drugs are discontinued. What conclusion is most consistent with the chapter?",
+  "choices": {
+    "A": "The depression may be part of a substance-induced mood disorder",
+    "B": "The depression must have existed for years",
+    "C": "The patient has a false positive",
+    "D": "The symptoms demonstrate standardization"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — The depression may be part of a substance-induced mood disorder.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A clinician observes a child's behavior directly in the home, workplace, school, community, or a simulated setting instead of relying entirely on what the patient reports. What assessment approach is this?",
+  "choices": {
+    "A": "Behavioral assessment",
+    "B": "Projective testing",
+    "C": "Intelligence testing",
+    "D": "Neuroimaging"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Behavioral assessment.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A 7-year-old child is not able to provide a detailed verbal account of his behavior, so a clinician observes him directly. Why is behavioral assessment particularly useful here?",
+  "choices": {
+    "A": "Young children may not be old enough or skilled enough to report their problems and experiences",
+    "B": "Behavioral assessment is only used for adults",
+    "C": "Children cannot be observed directly",
+    "D": "Behavioral assessment measures IQ automatically"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Young children may not be old enough or skilled enough to report their problems and experiences.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A clinician wants to understand a child's behavior but cannot realistically observe the child in every natural environment. Instead, the clinician creates a similar clinical setting in which the child can be observed. What is this type of setting called?",
+  "choices": {
+    "A": "Analogue setting",
+    "B": "Nosology",
+    "C": "Standardization",
+    "D": "Mental status examination"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Analogue setting.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "Researchers place children with autism spectrum disorder in simulated situations such as playing with a sibling or completing a difficult task to determine why they hit themselves. What are they conducting?",
+  "choices": {
+    "A": "Analogue assessment",
+    "B": "Personality inventory",
+    "C": "Projective testing",
+    "D": "Concurrent validity"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Analogue assessment.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "Researchers hypnotize healthy volunteers so they temporarily believe another force is controlling their arm movement while their brains are scanned. What is this an example of?",
+  "choices": {
+    "A": "An analogue assessment",
+    "B": "A clinical diagnosis",
+    "C": "An MMPI validity scale",
+    "D": "A personality inventory"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — An analogue assessment.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A clinician records what happened immediately before a child's violent behavior, the behavior itself, and what happened immediately afterward. What framework is being used?",
+  "choices": {
+    "A": "IQ",
+    "B": "ABCs of observation",
+    "C": "Multiaxial system",
+    "D": "Cultural formulation"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — ABCs of observation.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A mother asks her son to put a glass in the sink. He throws the glass across the room. His mother does not reprimand him or make him clean it up. In the ABC sequence, what is the mother's request?",
+  "choices": {
+    "A": "Behavior",
+    "B": "Consequence",
+    "C": "Antecedent",
+    "D": "Operational definition"
+  },
+  "correct": "C",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "Correct — Antecedent.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "In the same situation, the boy throws the glass across the room. Which part of the ABC sequence is this?",
+  "choices": {
+    "A": "Antecedent",
+    "B": "Behavior",
+    "C": "Consequence",
+    "D": "Standardization"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Behavior.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "After the boy throws the glass, his mother does not reprimand him and he does not have to clean it up. Which part of the ABC sequence is this?",
+  "choices": {
+    "A": "Antecedent",
+    "B": "Behavior",
+    "C": "Consequence",
+    "D": "Target definition"
+  },
+  "correct": "C",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "Correct — Consequence.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A clinician wants two observers to agree about what counts as a child's \"attitude.\" Instead of using the vague term, the clinician defines it as \"any time the boy does not comply with his mother's reasonable requests.\" What is this an example of?",
+  "choices": {
+    "A": "Operational definition",
+    "B": "Predictive validity",
+    "C": "Standardization sample",
+    "D": "Face validity"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Operational definition.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A clinician records exactly when a target behavior occurs, what happened before it, and what happened after it. The goal is to discover patterns that can guide treatment. What type of observation is being emphasized?",
+  "choices": {
+    "A": "Formal observation",
+    "B": "Projective observation",
+    "C": "Mental status observation",
+    "D": "Neuroimaging"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Formal observation.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A person who is trying to quit smoking records every cigarette, including the time and place it was smoked. What technique is this?",
+  "choices": {
+    "A": "Self-monitoring",
+    "B": "Neuropsychological testing",
+    "C": "Classification",
+    "D": "Psychophysiological assessment"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Self-monitoring.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A person notices that she smokes much more frequently while talking on the phone because she has been recording the times and places where she smokes. What has self-monitoring helped her identify?",
+  "choices": {
+    "A": "Situations associated with her behavior",
+    "B": "Her IQ",
+    "C": "Her DSM-5 diagnosis",
+    "D": "Her sensorium"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Situations associated with her behavior.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A clinician asks a patient to record a behavior that occurs privately and cannot easily be observed by others. Why might self-monitoring be especially important?",
+  "choices": {
+    "A": "The person with the problem is in the best position to observe the behavior throughout the day",
+    "B": "Self-monitoring eliminates all forms of reactivity",
+    "C": "Private behaviors cannot be assessed",
+    "D": "Self-monitoring determines brain structure"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — The person with the problem is in the best position to observe the behavior throughout the day.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A patient uses a checklist before treatment and then periodically during treatment to track changes in symptoms. Which type of assessment tool is being used?",
+  "choices": {
+    "A": "Behavior rating scale or checklist",
+    "B": "Rorschach inkblot test",
+    "C": "CT scan",
+    "D": "TAT"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Behavior rating scale or checklist.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A clinician uses the Brief Psychiatric Rating Scale, which rates 18 general areas of concern from 0 to 6. What does a score of 6 represent?",
+  "choices": {
+    "A": "Not present",
+    "B": "Mild",
+    "C": "Moderate",
+    "D": "Extremely severe"
+  },
+  "correct": "D",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "Correct — Extremely severe."
+  }
+},
+  {
+  "term": "A clinician notices that a patient changes her behavior simply because she knows she is being observed. What phenomenon may be distorting the assessment?",
+  "choices": {
+    "A": "Reactivity",
+    "B": "Validity",
+    "C": "Classification",
+    "D": "Comorbidity"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Reactivity.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A friend normally says the word \"like\" frequently, but starts saying it less often after learning that someone is recording how often she uses it. What does this demonstrate?",
+  "choices": {
+    "A": "Reactivity",
+    "B": "Predictive validity",
+    "C": "Test–retest reliability",
+    "D": "Construct validity"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Reactivity.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A student wants to increase how often she participates in class. She begins monitoring and recording each time she speaks. According to the chapter, what is likely to happen?",
+  "choices": {
+    "A": "The behavior may increase",
+    "B": "The behavior must disappear",
+    "C": "The behavior becomes a hallucination",
+    "D": "The behavior becomes a false positive"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — The behavior may increase.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A smoker records every cigarette smoked each day and gradually begins smoking less. What phenomenon could account for this change?",
+  "choices": {
+    "A": "Reactivity of self-monitoring",
+    "B": "Concurrent validity",
+    "C": "Comorbidity",
+    "D": "Content validity"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Reactivity of self-monitoring.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A person buys a magazine quiz titled \"Are You a Type Z Personality?\" The questions seem reasonable, but the test was created simply for the magazine article. How does the chapter characterize such tests?",
+  "choices": {
+    "A": "They are generally reliable diagnostic tests",
+    "B": "They are usually entertainment and tell us little",
+    "C": "They are standardized psychological assessments",
+    "D": "They are projective tests"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — They are usually entertainment and tell us little.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A psychologist uses a test to assess psychological disorder. Before relying on its results, the psychologist checks whether the test consistently produces results and actually measures what it claims to measure. Which two qualities are especially important?",
+  "choices": {
+    "A": "Mood and affect",
+    "B": "Reliability and validity",
+    "C": "Classification and labeling",
+    "D": "Sensorium and intelligence"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Reliability and validity.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A clinician presents a patient with ambiguous pictures and asks the patient to describe what he sees. The theory is that the patient may project personality and unconscious fears onto the stimuli. What type of test is this?",
+  "choices": {
+    "A": "Personality inventory",
+    "B": "Projective test",
+    "C": "Intelligence test",
+    "D": "Neuropsychological test"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Projective test.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A clinician is using a test based on psychoanalytic theory and therefore recognizes that its use remains controversial. Which type of test is being described?",
+  "choices": {
+    "A": "Projective test",
+    "B": "Intelligence test",
+    "C": "Neuropsychological test",
+    "D": "Behavior rating scale"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Projective test.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A psychologist asks a patient to respond to ten ambiguous inkblot pictures presented one at a time. Which assessment is being used?",
+  "choices": {
+    "A": "TAT",
+    "B": "Rorschach inkblot test",
+    "C": "MMPI-2",
+    "D": "Bender Visual–Motor Gestalt Test"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Rorschach inkblot test.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A psychologist administers the Rorschach differently on two occasions, giving the patient different instructions each time. The patient's responses differ. What assessment principle has been violated?",
+  "choices": {
+    "A": "Standardized procedures",
+    "B": "Predictive validity",
+    "C": "Content validity",
+    "D": "Familial aggregation"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Standardized procedures.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A psychologist wants a standardized method for administering and scoring the Rorschach, including instructions about how the cards are presented and how responses are recorded. Which development from the chapter is relevant?",
+  "choices": {
+    "A": "Exner's Comprehensive System",
+    "B": "Stanford-Binet test",
+    "C": "MMPI-A",
+    "D": "Halstead-Reitan Battery"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Exner's Comprehensive System.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A psychologist uses the Rorschach but recognizes that researchers continue to question whether the Comprehensive System provides a valid assessment technique for psychological disorders. What issue is being acknowledged?",
+  "choices": {
+    "A": "Controversy surrounding its validity",
+    "B": "Its lack of ambiguous stimuli",
+    "C": "Its inability to be standardized",
+    "D": "Its use only with children"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Controversy surrounding its validity.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A patient is shown a series of pictures and is instructed to create a dramatic story about each picture. Which test is being used?",
+  "choices": {
+    "A": "Rorschach inkblot test",
+    "B": "Thematic Apperception Test",
+    "C": "MMPI",
+    "D": "Stanford-Binet"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Thematic Apperception Test.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A test consists of 31 cards, 30 containing pictures and one blank card, although only 20 are typically used in one administration. Which test is this?",
+  "choices": {
+    "A": "TAT",
+    "B": "Rorschach",
+    "C": "MMPI-2",
+    "D": "Bender test"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — TAT.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A psychologist wants to use an apperception test specifically designed for children rather than the standard TAT. Which variation mentioned in the chapter is appropriate?",
+  "choices": {
+    "A": "CAT",
+    "B": "MMPI-A",
+    "C": "WAIS-III",
+    "D": "WISC-IV"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — CAT.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A clinician wants to use a projective test with an older population and chooses a variation developed for seniors. Which one is described in the chapter?",
+  "choices": {
+    "A": "CAT",
+    "B": "SAT",
+    "C": "MMPI-A",
+    "D": "WISC-IV"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — SAT.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A clinician uses a projective test as an icebreaker because it helps a patient open up and talk about feelings, but does not rely heavily on the test to make a diagnosis. Why is this use consistent with the chapter?",
+  "choices": {
+    "A": "Projective tests may be valuable as icebreakers despite limited reliability and validity",
+    "B": "Projective tests are always the most valid diagnostic tools",
+    "C": "Projective tests eliminate the need for interviews",
+    "D": "Projective tests directly identify brain dysfunction"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Projective tests may be valuable as icebreakers despite limited reliability and validity.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A psychologist uses a questionnaire in which the patient reports personal traits. What type of assessment is this?",
+  "choices": {
+    "A": "Personality inventory",
+    "B": "Projective test",
+    "C": "Neuroimaging",
+    "D": "Mental status exam"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Personality inventory.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A psychologist argues that the important question about a personality inventory is not whether each question seems sensible on the surface, but what the person's answers predict. Which psychologist's position does this reflect?",
+  "choices": {
+    "A": "Emil Kraepelin",
+    "B": "Paul Meehl",
+    "C": "Alfred Binet",
+    "D": "Hermann Rorschach"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Paul Meehl.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A patient reads hundreds of statements and answers each one \"true\" or \"false.\" The clinician evaluates the overall pattern of responses rather than interpreting each answer individually. Which assessment is being used?",
+  "choices": {
+    "A": "TAT",
+    "B": "MMPI",
+    "C": "Rorschach",
+    "D": "Bender test"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — MMPI.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A psychologist wants to use the most widely used personality inventory in the United States discussed in the chapter. Which test should be selected?",
+  "choices": {
+    "A": "MMPI",
+    "B": "TAT",
+    "C": "CAT",
+    "D": "Stanford-Binet"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — MMPI.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A psychologist compares a patient's overall MMPI response pattern with patterns from groups of people with specific disorders. What feature of the MMPI is being used?",
+  "choices": {
+    "A": "Individual response interpretation",
+    "B": "Pattern of responses on standard scales",
+    "C": "Projective interpretation",
+    "D": "Mental age"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Pattern of responses on standard scales.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A patient answers an MMPI item in a way that appears designed to make the person look unusually good. Which MMPI feature helps evaluate this possibility?",
+  "choices": {
+    "A": "Validity scales",
+    "B": "Performance scales",
+    "C": "Sensorium scale",
+    "D": "TAT stories"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Validity scales.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A patient answers \"false\" to \"Have hurt someone when angry?\" despite other evidence suggesting the opposite. The clinician suspects the patient may be trying to look good. Which MMPI scale is particularly relevant?",
+  "choices": {
+    "A": "Lie scale",
+    "B": "Infrequency scale",
+    "C": "Paranoia scale",
+    "D": "Mania scale"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Lie scale.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "An MMPI profile shows very high scores on validity scales suggesting that the person made a naive attempt to look good and may have tried to appear as though he had no problems. Which case from the chapter does this resemble?",
+  "choices": {
+    "A": "Frank",
+    "B": "Brian",
+    "C": "James S.",
+    "D": "Alfred Binet"
+  },
+  "correct": "C",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "Correct — James S..",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "James S. receives a very high score on the Psychopathic Deviation scale. What personality features does the chapter associate with this finding?",
+  "choices": {
+    "A": "Aggressiveness and irresponsibility",
+    "B": "Relaxation and calmness",
+    "C": "Average intelligence and clear sensorium",
+    "D": "Vocabulary and verbal reasoning"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Aggressiveness and irresponsibility.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A patient has a high score on the MMPI Paranoia scale. Which pattern would be most consistent with the chapter?",
+  "choices": {
+    "A": "Disturbed thinking and ideas of persecution",
+    "B": "Timidity in social situations",
+    "C": "Dysphoria and possible suicidality",
+    "D": "Somatization and possible medical problems"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Disturbed thinking and ideas of persecution.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A patient has a high score on the MMPI Social Introversion scale. Which description best fits?",
+  "choices": {
+    "A": "Very insecure and uncomfortable in social situations",
+    "B": "Manic and emotionally labile",
+    "C": "Antisocial and dishonest",
+    "D": "Possible hallucinations"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Very insecure and uncomfortable in social situations.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A clinician wants to use a version of the MMPI appropriate for adolescents. Which test is specifically described for this purpose?",
+  "choices": {
+    "A": "MMPI-A",
+    "B": "MMPI-2",
+    "C": "WAIS-III",
+    "D": "WISC-IV"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — MMPI-A.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A psychologist uses the MMPI-2 and explains that its standardization sample reflects the 1980 U.S. Census and includes African Americans and Native Americans. What issue was this revision addressing?",
+  "choices": {
+    "A": "Problems with the original selective sample and cultural insensitivity",
+    "B": "Lack of an IQ score",
+    "C": "Lack of projective stimuli",
+    "D": "Lack of brain imaging"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Problems with the original selective sample and cultural insensitivity.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "In 1904, a French government wants a test that will identify \"slow learners\" who could benefit from remedial help. Which psychologists are commissioned to develop the test?",
+  "choices": {
+    "A": "Kraepelin and Pinel",
+    "B": "Binet and Simon",
+    "C": "Wechsler and Terman",
+    "D": "Rorschach and Murray"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Binet and Simon.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "Binet and Simon design tasks involving attention, perception, memory, reasoning, and verbal comprehension because they want to predict who will do well in school. What was the original purpose of intelligence testing described in the chapter?",
+  "choices": {
+    "A": "To identify unconscious fears",
+    "B": "To predict who would do well in school",
+    "C": "To diagnose psychotic disorders",
+    "D": "To measure brain blood flow"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — To predict who would do well in school.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A revised version of Binet's test is translated for use in the United States in 1916 by Lewis Terman. What does it become known as?",
+  "choices": {
+    "A": "Stanford-Binet test",
+    "B": "Wechsler test",
+    "C": "MMPI-2",
+    "D": "Bender test"
+  },
+  "correct": "A",
+  "explanations": {
+    "A": "Correct — Stanford-Binet test.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A child passes all questions at the 7-year-old level but none at the 8-year-old level. Under the original system, the child's mental age would be what?",
+  "choices": {
+    "A": "4",
+    "B": "7",
+    "C": "8",
+    "D": "10"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — 7.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A psychologist explains that modern IQ scores are based on comparing a person's performance with that of other people of the same age rather than simply dividing mental age by chronological age. What type of IQ is being used?",
+  "choices": {
+    "A": "Mental-age IQ",
+    "B": "Deviation IQ",
+    "C": "Predictive IQ",
+    "D": "Projective IQ"
+  },
+  "correct": "B",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "Correct — Deviation IQ.",
+    "C": "This choice does not match the answer given for this question.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+  {
+  "term": "A psychologist needs an intelligence test for an adult client. Which Wechsler test described in the chapter is appropriate?",
+  "choices": {
+    "A": "WISC-IV",
+    "B": "WPPSI-III",
+    "C": "WAIS-III",
+    "D": "CAT"
+  },
+  "correct": "C",
+  "explanations": {
+    "A": "This choice does not match the answer given for this question.",
+    "B": "This choice does not match the answer given for this question.",
+    "C": "Correct — WAIS-III.",
+    "D": "This choice does not match the answer given for this question."
+  }
+},
+];
+
 const SETS = {
   1: { label: "Questions 1–80", questions: QUESTIONS_SET_1 },
   2: { label: "Questions 81–130", questions: QUESTIONS_SET_2 },
+  3: { label: "Page 3: Questions 1–100", questions: QUESTIONS_SET_3 },
 };
 
 export default function App() {
   const [activeSet, setActiveSet] = useState(1);
   // Keep separate answer state per set so switching pages doesn't lose progress
-  const [answersBySet, setAnswersBySet] = useState({ 1: {}, 2: {} });
+  const [answersBySet, setAnswersBySet] = useState({ 1: {}, 2: {}, 3: {} });
 
   const QUESTIONS = SETS[activeSet].questions;
   const answers = answersBySet[activeSet];
@@ -2320,7 +3931,7 @@ export default function App() {
       <main>
         {QUESTIONS.length === 0 ? (
           <div className="emptySet">
-            <h2>Questions 81–130 coming soon</h2>
+            <h2>Page 3 questions coming soon</h2>
             <p>Paste them in and this page will fill up automatically.</p>
           </div>
         ) : (
